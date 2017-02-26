@@ -22,3 +22,7 @@ Route::get('/login', function () {
 Route::get('/dashboard', function () {
     return view('dashboard.index');
 });
+
+Route::get('review_feedback', function(){
+    return view('review_feedback');
+});
