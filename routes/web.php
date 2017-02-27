@@ -28,7 +28,8 @@ Route::get('review_feedback', function(){
 });
 
 Route::get('lecturer_view',function(){
-   return view('lecturerView');
+    $tab=0;
+   return view('lecturerView',compact('tab'));
 });
 
 Route::get('receive_grades', function(){
