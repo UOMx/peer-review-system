@@ -26,3 +26,7 @@ Route::get('/dashboard', function () {
 Route::get('review_feedback', function(){
     return view('review_feedback');
 });
+
+Route::get('lecturer_view',function(){
+   return view('lecturerView');
+});
