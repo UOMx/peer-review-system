@@ -35,7 +35,7 @@ Review Feedback
             $students=array();
             array_push($students,["Tom",58,4],["Lis",78,5],["Ann",67,3],["Marry",80,5],["Fred",91,4],["Bob",92,5]);
             $size=ceil(sizeof($students)/5);
-            $tab+=1;
+            //$tab+=1;
             ?>
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12">
