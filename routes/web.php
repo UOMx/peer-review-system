@@ -30,3 +30,7 @@ Route::get('review_feedback', function(){
 Route::get('lecturer_view',function(){
    return view('lecturerView');
 });
+
+Route::get('receive_grades', function(){
+    return view('receive_grades');
+});
