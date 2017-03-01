@@ -11,11 +11,12 @@
         
         hello_world_in_the_snow
 
-3.  Model names: begin with an Uppercase letter. CamelCase
+3. Models and Controllers: begin with an Uppercase letter. CamelCase
 
         HelloWorldInTheSnow
+        SnowController
 
-4. Method names: begin with a lower case letter. camelCase
+4. Method: begin with a lower case letter. camelCase
 
         getHelloWorldWithSnow()
 
@@ -24,5 +25,11 @@
     ```html
     id="hello-world" 
     class="snow" 
-    name="hello-world-with-snow"
+    name="hello-world-with-snow
     ```
+    
+ 6. Migrations. lowercase with hiphens (kebab-case)
+ 
+        first_name
+        last_name
+        the_place_where_everything_started
