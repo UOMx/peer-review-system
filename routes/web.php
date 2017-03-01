@@ -35,3 +35,10 @@ Route::get('lecturer_view',function(){
 Route::get('receive_grades', function(){
     return view('receive_grades');
 });
+
+
+Route::get('create-assignment', function(){
+    return view('assignment.create_assignment');
+});
+
+ 

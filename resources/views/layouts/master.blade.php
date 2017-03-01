@@ -27,11 +27,15 @@
 
     <!-- Custom Theme Style -->
     <link href="gentelella-theme/build/css/custom.min.css" rel="stylesheet">
+
+     @yield('custom-include')
 </head>
 
 
 
 <body class="nav-md">
+ <!-- jQuery -->
+    <script src="gentelella-theme/vendors/jquery/dist/jquery.min.js"></script>
     <!-- Custom Styles to override body style -->
     @yield('custom-styles')
 
@@ -42,8 +46,7 @@
 
     <!-- Scripts -->
     @stack('scripts')
-    <!-- jQuery -->
-    <script src="gentelella-theme/vendors/jquery/dist/jquery.min.js"></script>
+   
     <!-- Bootstrap -->
     <script src="gentelella-theme/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
     <!-- FastClick -->
@@ -82,6 +85,6 @@
 
     <!-- Custom Theme Scripts -->
     <script src="gentelella-theme/build/js/custom.min.js"></script>
-
+    @yield('custom-footer-include')
 </body>
 </html>
