@@ -23,16 +23,16 @@ Route::get('/dashboard', function () {
     return view('dashboard.index');
 });
 
-Route::get('review_feedback', function(){
+Route::get('review-feedback', function(){
     return view('review_feedback');
 });
 
-Route::get('lecturer_view',function(){
+Route::get('lecturer-view',function(){
     $tab=0;
    return view('lecturerView',compact('tab'));
 });
 
-Route::get('receive_grades', function(){
+Route::get('receive-grades', function(){
     return view('receive_grades');
 });
 
