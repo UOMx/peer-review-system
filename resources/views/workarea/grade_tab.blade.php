@@ -64,10 +64,7 @@ for ($i = 0; $i < count($marks); $i += 1) {
         </br>
         </br>
         </br>
-        <div class="col-md-6 col-md-offset-3">
-            <button type="submit" class="btn btn-primary">Save Draft</button>
-            <button id="send" type="submit" class="btn btn-success">Submit</button>
-        </div>
+
 
     </div>
 </div>
