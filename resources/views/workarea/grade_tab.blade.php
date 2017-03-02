@@ -1,45 +1,73 @@
-<table class="table table-striped jambo_table bulk_action">
-    <thead>
-    <tr class="headings">
+@section('title')
+    Receive Grades
+@stop
 
-        <th class="column-title">Description </th>
-        <th class="column-title">Marks </th>
+<?php
+$rubric = array("Content", "Organization", "Grammar", "Conclusion");
+$marks = array(12, 34, 56, 23);
+$arraylen = count($marks);
+$total = 0;
+for ($i = 0; $i < count($marks); $i += 1) {
+    $total = $total + $marks[$i];
+}
+?>
 
-        <th class="bulk-actions" colspan="7">
-            <a class="antoo" style="color:#fff; font-weight:500;">Bulk Actions ( <span class="action-cnt"> </span> ) <i class="fa fa-chevron-down"></i></a>
-        </th>
-    </tr>
-    </thead>
+<div class="col-md-6 col-sm-6 col-xs-12" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html"
+     xmlns="http://www.w3.org/1999/html">
+    <div class="x_panel">
+        <div class="x_title">
 
-    <tbody>
-    <tr class="even pointer">
+            <h2>Assignment Marks
+                <small></br></br>Final marks of the assignment according to the given rubric</br></small>
+            </h2>
 
-        <td class=" ">Content</td>
-        <td class=" ">23</td>
+            <div class="clearfix"></div>
+        </div>
 
-    </tr>
-    <tr class="odd pointer">
+        <div class="x_content">
 
-        <td class=" ">Organization</td>
-        <td class=" ">25</td>
+            <table class="table table-striped">
 
-    </tr>
-    <tr class="even pointer">
+                <thead>
 
-        <td class=" ">Relativity</td>
-        <td class=" ">20</td>
+                <tr>
+                    <th>Description</th>
+                    <th>Marks</th>
+                </tr>
 
-    </tr>
+                </thead>
 
+                <tbody>
 
-    <tr class="odd pointer">
+                @for($x=0;$x<$arraylen;$x+=1)
 
-        <td class=" ">Total</td>
-        <td class=" ">68</td>
+                    <tr>
+                        <td>{{$rubric[$x]}}</td>
+                        <td>{{$marks[$x]}}</td>
+                    </tr>
 
-    </tr>
+                @endfor
 
+                </tbody>
 
+            </table>
 
-    </tbody>
-</table>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-3 col-sm-3 col-xs-3" for="total">Total Marks</label>
+            <div class="col-md-6 col-sm-6 col-xs-12">
+                <label class="control-label col-md-3 col-sm-3 col-xs-12" for="total">{{$total}}
+                </label>
+            </div>
+        </div>
+        </br>
+        </br>
+        </br>
+        <div class="col-md-6 col-md-offset-3">
+            <button type="submit" class="btn btn-primary">Save Draft</button>
+            <button id="send" type="submit" class="btn btn-success">Submit</button>
+        </div>
+
+    </div>
+</div>
