@@ -16,6 +16,11 @@ class CreateAssignmentsTable extends Migration
         Schema::create('assignments', function (Blueprint $table) {
             $table->increments('id');
             $table->timestamps();
+            $table->string('title');
+            $table->longText('content');
+            $table->date('deadline');
+            $table->date('publish_date');
+            $table->integer('course_id');
         });
     }
 
