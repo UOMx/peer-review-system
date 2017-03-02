@@ -28,7 +28,7 @@
     name="hello-world-with-snow
     ```
     
- 6. Migrations. lowercase with hiphens (kebab-case)
+ 6. Migrations. lowercase with underscore (snake_case)
  
         first_name
         last_name
