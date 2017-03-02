@@ -10,4 +10,13 @@ class Assignment extends Model
     {
         return $this->belongsTo(Course::class);
     }
+
+    public function rubric()
+    {
+        return $this->hasOne(Rubric::class);
+    }
+
+    public function submissions(){
+        return $this->hasMany(Submission::class);
+    }
 }

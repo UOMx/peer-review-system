@@ -16,6 +16,10 @@ class CreateSubmissionsTable extends Migration
         Schema::create('submissions', function (Blueprint $table) {
             $table->increments('id');
             $table->timestamps();
+            $table->longText('content');
+            $table->date('submit_date');
+            $table->string('status');
+            $table->integer('student_id');
         });
     }
 
