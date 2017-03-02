@@ -1,10 +1,11 @@
+<h1>Assignment</h1>
 <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher
     synth. Cosby sweater eu banh mi, qui irure terr.</p>
 
 <div class="col-md-12 col-sm-6 col-xs-12">
     <div class="x_panel">
         <div class="x_title">
-            <h2>Stripped table <small>Stripped table subtitle</small></h2>
+            <h2>Grading rubric <small>Stripped table subtitle</small></h2>
             <ul class="nav navbar-right panel_toolbox">
                 <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
                 </li>
@@ -27,29 +28,37 @@
             <table class="table table-striped">
                 <thead>
                 <tr>
-                    <th>#</th>
-                    <th>First Name</th>
-                    <th>Last Name</th>
-                    <th>Username</th>
+                    <th>criteria</th>
+                    <th>Excelent</th>
+                    <th>Very good</th>
+                    <th>Good</th>
+                    <th>Fair</th>
+                    <th>Weak</th>
                 </tr>
                 </thead>
                 <tbody>
                 <tr>
-                    <th scope="row">1</th>
+                    <th scope="row">gjhggj kjhhkhjk</th>
                     <td>Mark</td>
                     <td>Otto</td>
                     <td>@mdo</td>
+                    <td>@mdo</td>
+                    <td>@mdo</td>
                 </tr>
                 <tr>
-                    <th scope="row">2</th>
+                    <th scope="row">gggkjg ggk</th>
                     <td>Jacob</td>
                     <td>Thornton</td>
                     <td>@fat</td>
+                    <td>@fat</td>
+                    <td>@fat</td>
                 </tr>
                 <tr>
-                    <th scope="row">3</th>
+                    <th scope="row">gggk gjkgkg hkjhkjhk jkjhkhk bkkk jj</th>
                     <td>Larry</td>
                     <td>the Bird</td>
+                    <td>@twitter</td>
+                    <td>@twitter</td>
                     <td>@twitter</td>
                 </tr>
                 </tbody>
