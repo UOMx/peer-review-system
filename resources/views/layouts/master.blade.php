@@ -19,7 +19,8 @@
     <link href="gentelella-theme/vendors/iCheck/skins/flat/green.css" rel="stylesheet">
 
     <!-- bootstrap-progressbar -->
-    <link href="gentelella-theme/vendors/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet">
+    <link href="gentelella-theme/vendors/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css"
+          rel="stylesheet">
     <!-- JQVMap -->
     <link href="gentelella-theme/vendors/jqvmap/dist/jqvmap.min.css" rel="stylesheet"/>
     <!-- bootstrap-daterangepicker -->
@@ -28,63 +29,62 @@
     <!-- Custom Theme Style -->
     <link href="gentelella-theme/build/css/custom.min.css" rel="stylesheet">
 
-     @yield('custom-include')
+    @yield('custom-include')
 </head>
 
 
-
 <body class="nav-md">
- <!-- jQuery -->
-    <script src="gentelella-theme/vendors/jquery/dist/jquery.min.js"></script>
-    <!-- Custom Styles to override body style -->
-    @yield('custom-styles')
+<!-- jQuery -->
+<script src="gentelella-theme/vendors/jquery/dist/jquery.min.js"></script>
+<!-- Custom Styles to override body style -->
+@yield('custom-styles')
 
-    <!-- Page Content -->
-    <div class="container body">
-        @yield('content')
-    </div>
+        <!-- Page Content -->
+<div class="container body">
+    @yield('content')
+</div>
 
-    <!-- Scripts -->
-    @stack('scripts')
-   
-    <!-- Bootstrap -->
-    <script src="gentelella-theme/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
-    <!-- FastClick -->
-    <script src="gentelella-theme/vendors/fastclick/lib/fastclick.js"></script>
-    <!-- NProgress -->
-    <script src="gentelella-theme/vendors/nprogress/nprogress.js"></script>
-    <!-- Chart.js -->
-    <script src="gentelella-theme/vendors/Chart.js/dist/Chart.min.js"></script>
-    <!-- gauge.js -->
-    <script src="gentelella-theme/vendors/gauge.js/dist/gauge.min.js"></script>
-    <!-- bootstrap-progressbar -->
-    <script src="gentelella-theme/vendors/bootstrap-progressbar/bootstrap-progressbar.min.js"></script>
-    <!-- iCheck -->
-    <script src="gentelella-theme/vendors/iCheck/icheck.min.js"></script>
-    <!-- Skycons -->
-    <script src="gentelella-theme/vendors/skycons/skycons.js"></script>
-    <!-- Flot -->
-    <script src="gentelella-theme/vendors/Flot/jquery.flot.js"></script>
-    <script src="gentelella-theme/vendors/Flot/jquery.flot.pie.js"></script>
-    <script src="gentelella-theme/vendors/Flot/jquery.flot.time.js"></script>
-    <script src="gentelella-theme/vendors/Flot/jquery.flot.stack.js"></script>
-    <script src="gentelella-theme/vendors/Flot/jquery.flot.resize.js"></script>
-    <!-- Flot plugins -->
-    <script src="gentelella-theme/vendors/flot.orderbars/js/jquery.flot.orderBars.js"></script>
-    <script src="gentelella-theme/vendors/flot-spline/js/jquery.flot.spline.min.js"></script>
-    <script src="gentelella-theme/vendors/flot.curvedlines/curvedLines.js"></script>
-    <!-- DateJS -->
-    <script src="gentelella-theme/vendors/DateJS/build/date.js"></script>
-    <!-- JQVMap -->
-    <script src="gentelella-theme/vendors/jqvmap/dist/jquery.vmap.js"></script>
-    <script src="gentelella-theme/vendors/jqvmap/dist/maps/jquery.vmap.world.js"></script>
-    <script src="gentelella-theme/vendors/jqvmap/examples/js/jquery.vmap.sampledata.js"></script>
-    <!-- bootstrap-daterangepicker -->
-    <script src="gentelella-theme/vendors/moment/min/moment.min.js"></script>
-    <script src="gentelella-theme/vendors/bootstrap-daterangepicker/daterangepicker.js"></script>
+<!-- Scripts -->
+@stack('scripts')
 
-    <!-- Custom Theme Scripts -->
-    <script src="gentelella-theme/build/js/custom.min.js"></script>
-    @yield('custom-footer-include')
+        <!-- Bootstrap -->
+<script src="gentelella-theme/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+<!-- FastClick -->
+<script src="gentelella-theme/vendors/fastclick/lib/fastclick.js"></script>
+<!-- NProgress -->
+<script src="gentelella-theme/vendors/nprogress/nprogress.js"></script>
+<!-- Chart.js -->
+<script src="gentelella-theme/vendors/Chart.js/dist/Chart.min.js"></script>
+<!-- gauge.js -->
+<script src="gentelella-theme/vendors/gauge.js/dist/gauge.min.js'"></script>
+<!-- bootstrap-progressbar -->
+<script src="gentelella-theme/vendors/bootstrap-progressbar/bootstrap-progressbar.min.js"></script>
+<!-- iCheck -->
+<script src="gentelella-theme/vendors/iCheck/icheck.min.js"></script>
+<!-- Skycons -->
+<script src="gentelella-theme/vendors/skycons/skycons.js"></script>
+<!-- Flot -->
+<script src="gentelella-theme/vendors/Flot/jquery.flot.js"></script>
+<script src="gentelella-theme/vendors/Flot/jquery.flot.pie.js"></script>
+<script src="gentelella-theme/vendors/Flot/jquery.flot.time.js"></script>
+<script src="gentelella-theme/vendors/Flot/jquery.flot.stack.js"></script>
+<script src="gentelella-theme/vendors/Flot/jquery.flot.resize.js"></script>
+<!-- Flot plugins -->
+<script src="gentelella-theme/vendors/flot.orderbars/js/jquery.flot.orderBars.js"></script>
+<script src="gentelella-theme/vendors/flot-spline/js/jquery.flot.spline.min.js"></script>
+<script src="gentelella-theme/vendors/flot.curvedlines/curvedLines.js"></script>
+<!-- DateJS -->
+<script src="gentelella-theme/vendors/DateJS/build/date.js"></script>
+<!-- JQVMap -->
+<script src="gentelella-theme/vendors/jqvmap/dist/jquery.vmap.js"></script>
+<script src="gentelella-theme/vendors/jqvmap/dist/maps/jquery.vmap.world.js"></script>
+<script src="gentelella-theme/vendors/jqvmap/examples/js/jquery.vmap.sampledata.js"></script>
+<!-- bootstrap-daterangepicker -->
+<script src="gentelella-theme/vendors/moment/min/moment.min.js"></script>
+<script src="gentelella-theme/vendors/bootstrap-daterangepicker/daterangepicker.js"></script>
+
+<!-- Custom Theme Scripts -->
+<script src="gentelella-theme/build/js/custom.min.js"></script>
+@yield('custom-footer-include')
 </body>
 </html>
