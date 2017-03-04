@@ -29,6 +29,8 @@
     <!-- Custom Theme Style -->
     <link href="gentelella-theme/build/css/custom.min.css" rel="stylesheet">
 
+
+
     @yield('custom-include')
 </head>
 
@@ -85,6 +87,8 @@
 
 <!-- Custom Theme Scripts -->
 <script src="gentelella-theme/build/js/custom.min.js"></script>
+
+
 @yield('custom-footer-include')
 </body>
 </html>
