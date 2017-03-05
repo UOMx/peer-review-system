@@ -21,6 +21,7 @@
     <link href="gentelella-theme/vendors/dropzone/dist/min/dropzone.min.css" rel="stylesheet">
 
 
+
 @endsection
 @section('content')
     <div class="main_container">
