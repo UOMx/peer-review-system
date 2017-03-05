@@ -38,7 +38,7 @@ Route::get('receive-grades', function(){
 
 
 Route::get('create-assignment', function(){
-    return view('assignment.create_assignment');
+    return view('Assignment.create_assignment');
 });
 
  
