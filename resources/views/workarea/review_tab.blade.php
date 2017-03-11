@@ -136,9 +136,7 @@
 
                                         <textarea name="descr" id="descr" style="display:none;"></textarea>
 
-                                        {{--<div class="col-md-6 col-sm-6 col-xs-12">--}}
-                                            {{--<input type="text" id="author" required="required" class="form-control col-md-7 col-xs-12">--}}
-                                        {{--</div>--}}
+
                                     </div>
                                 </div>
 
@@ -153,8 +151,6 @@
                             <h4>Details : Reviewer</h4>
                         </div>
                       <div class="bs-example" data-example-id="simple-jumbotron">
-                        {{--<div class="jumbotron">--}}
-
 
                                 <div class="container">
 
@@ -172,93 +168,12 @@
                                         </label>
                                         <div class="col-md-6 col-sm-6 col-xs-12">
                                             <textarea type="text" id="description" name="description" required="required" class="form-control col-md-7 col-xs-12"></textarea>
-                                            {{--<input type="text" id="description" name="description" required="required" class="form-control col-md-7 col-xs-12">--}}
+
                                         </div>
                                     </div>
                                 </div>
 
 
-
-                            {{--<div class="row">--}}
-                                {{--<div class="col-md-12">--}}
-                                    {{--<div class="col-md-4 col-sm-6 col-xs-12">--}}
-                                        {{--<div class="pricing">--}}
-                                            {{--<div class="title" style="height: 80px; padding-top: 50px">--}}
-                                                {{--<h2>Assignment 1</h2>--}}
-                                            {{--</div>--}}
-                                            {{--<div class="x_content">--}}
-                                                {{--<div class="">--}}
-                                                    {{--<div class="pricing_features" style="min-height: 0px;">--}}
-                                                        {{--<ul class="list-unstyled text-left">--}}
-                                                            {{--<li><i class="fa fa-circle-o text-danger"></i> Good work</li>--}}
-                                                            {{--<li><i class="fa fa-circle-o text-danger"></i> Could write more for contrasting</li>--}}
-                                                            {{--<li><i class="fa fa-circle-o text-danger"></i> Love the conclusion</li>--}}
-                                                        {{--</ul>--}}
-                                                    {{--</div>--}}
-                                                {{--</div>--}}
-                                            {{--</div>--}}
-                                        {{--</div>--}}
-                                    {{--</div>--}}
-                                    {{--<div class="col-md-4 col-sm-6 col-xs-12">--}}
-                                        {{--<div class="pricing">--}}
-                                            {{--<div class="title" style="height: 80px; padding-top: 50px">--}}
-                                                {{--<h2>Assignment 1</h2>--}}
-                                            {{--</div>--}}
-                                            {{--<div class="x_content">--}}
-                                                {{--<div class="">--}}
-                                                    {{--<div class="pricing_features" style="min-height: 0px;">--}}
-                                                        {{--<ul class="list-unstyled text-left">--}}
-                                                            {{--<li><i class="fa fa-circle-o text-danger"></i> Good work</li>--}}
-                                                            {{--<li><i class="fa fa-circle-o text-danger"></i> Could write more for contrasting</li>--}}
-                                                            {{--<li><i class="fa fa-circle-o text-danger"></i> Love the conclusion</li>--}}
-                                                        {{--</ul>--}}
-                                                    {{--</div>--}}
-                                                {{--</div>--}}
-                                            {{--</div>--}}
-                                        {{--</div>--}}
-                                    {{--</div>--}}
-                                {{--</div>--}}
-                            {{--</div>--}}
-                            {{--<div class="row">--}}
-                                {{--<div class="col-md-12">--}}
-                                    {{--<div class="col-md-4 col-sm-6 col-xs-12">--}}
-                                        {{--<div class="pricing">--}}
-                                            {{--<div class="title" style="height: 80px; padding-top: 50px">--}}
-                                                {{--<h2>Assignment 1</h2>--}}
-                                            {{--</div>--}}
-                                            {{--<div class="x_content">--}}
-                                                {{--<div class="">--}}
-                                                    {{--<div class="pricing_features" style="min-height: 0px;">--}}
-                                                        {{--<ul class="list-unstyled text-left">--}}
-                                                            {{--<li><i class="fa fa-circle-o text-danger"></i> Good work</li>--}}
-                                                            {{--<li><i class="fa fa-circle-o text-danger"></i> Could write more for contrasting</li>--}}
-                                                            {{--<li><i class="fa fa-circle-o text-danger"></i> Love the conclusion</li>--}}
-                                                        {{--</ul>--}}
-                                                    {{--</div>--}}
-                                                {{--</div>--}}
-                                            {{--</div>--}}
-                                        {{--</div>--}}
-                                    {{--</div>--}}
-                                    {{--<div class="col-md-4 col-sm-6 col-xs-12">--}}
-                                        {{--<div class="pricing">--}}
-                                            {{--<div class="title" style="height: 80px; padding-top: 50px">--}}
-                                                {{--<h2>Assignment 1</h2>--}}
-                                            {{--</div>--}}
-                                            {{--<div class="x_content">--}}
-                                                {{--<div class="">--}}
-                                                    {{--<div class="pricing_features" style="min-height: 0px;">--}}
-                                                        {{--<ul class="list-unstyled text-left">--}}
-                                                            {{--<li><i class="fa fa-circle-o text-danger"></i> Good work</li>--}}
-                                                            {{--<li><i class="fa fa-circle-o text-danger"></i> Could write more for contrasting</li>--}}
-                                                            {{--<li><i class="fa fa-circle-o text-danger"></i> Love the conclusion</li>--}}
-                                                        {{--</ul>--}}
-                                                    {{--</div>--}}
-                                                {{--</div>--}}
-                                            {{--</div>--}}
-                                        {{--</div>--}}
-                                    {{--</div>--}}
-                                {{--</div>--}}
-                            {{--</div>--}}
                         </div>
                     </div>
                 </div>
@@ -275,7 +190,7 @@
                                 <div class="container">
 
                                     <div class="col-lg-6">
-                                        <div class="row">
+
                                             <div class="form-group">
 
                                                 <label class="control-label col-md-3 col-sm-3 col-xs-12" for="text-area-1">Why do you like this work?
@@ -286,8 +201,7 @@
 
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="row">
+
                                             <div class="form-group">
                                                 <label for="text-area-2" class="control-label col-md-3 col-sm-3 col-xs-12">What problems you see?
                                                     <span class="required">*</span>
@@ -296,10 +210,10 @@
                                                     <textarea type="text" id="text-area-2" name="text-area-2" required="required" class="form-control col-md-7 col-xs-12"></textarea>
                                                 </div>
                                             </div>
-                                        </div>
+
                                     </div>
                                     <div class="col-lg-6">
-                                        <div class="row">
+
                                             <div class="form-group">
                                                 <label class="control-label col-md-3 col-sm-3 col-xs-12" for="text-area-3">Why didn't you understand?
                                                     <span class="required">*</span>
@@ -308,8 +222,7 @@
                                                     <textarea type="text" id="text-area-3" name="text-area-3" required="required" class="form-control col-md-7 col-xs-12"></textarea>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="row">
+
                                             <div class="form-group">
                                                 <label class="control-label col-md-3 col-sm-3 col-xs-12" for="text-area-4">How can this be improved?
                                                     <span class="required">*</span>
@@ -318,7 +231,7 @@
                                                     <textarea type="text" id="text-area-4" name="text-area-4" required="required" class="form-control col-md-7 col-xs-12"></textarea>
                                                 </div>
                                             </div>
-                                        </div>
+
                                     </div>
                                 </div>
 
@@ -382,24 +295,12 @@
                         </div>
                     </div>
 
-
+                <div class="col-md-6">
+                    <button type="submit" class="btn btn-success">Submit</button>
+                </div>
 
             </form>
 
-            <!--Concern message box-->
-            {{--<div class="x_panel">--}}
-                {{--<div class="x_content">--}}
-                    {{--<div class="jumbotron">--}}
-                        {{--<p>If you have any concern of these review, please feel free to communicate.</p>--}}
-                        {{--<div>--}}
-                            {{--<textarea id="message" autocomplete="off" class="form-control" data-parsley-trigger="keyup">--}}
-                                                        {{--</textarea>--}}
-                        {{--</div>--}}
-                        {{--<br>--}}
-                        {{--<button class="btn btn-primary">Send</button>--}}
-                    {{--</div>--}}
-                {{--</div>--}}
-            {{--</div>--}}
 
         </div>
         <div role="tabpanel" class="tab-pane fade active in" id="student_tab_content2"
@@ -520,9 +421,7 @@
 
                                     <textarea name="descr" id="descr" style="display:none;"></textarea>
 
-                                    {{--<div class="col-md-6 col-sm-6 col-xs-12">--}}
-                                    {{--<input type="text" id="author" required="required" class="form-control col-md-7 col-xs-12">--}}
-                                    {{--</div>--}}
+
                                 </div>
                             </div>
 
@@ -556,93 +455,14 @@
                                     </label>
                                     <div class="col-md-6 col-sm-6 col-xs-12">
                                         <textarea type="text" id="description" name="description" required="required" class="form-control col-md-7 col-xs-12"></textarea>
-                                        {{--<input type="text" id="description" name="description" required="required" class="form-control col-md-7 col-xs-12">--}}
+
                                     </div>
                                 </div>
                             </div>
 
 
 
-                            {{--<div class="row">--}}
-                            {{--<div class="col-md-12">--}}
-                            {{--<div class="col-md-4 col-sm-6 col-xs-12">--}}
-                            {{--<div class="pricing">--}}
-                            {{--<div class="title" style="height: 80px; padding-top: 50px">--}}
-                            {{--<h2>Assignment 1</h2>--}}
-                            {{--</div>--}}
-                            {{--<div class="x_content">--}}
-                            {{--<div class="">--}}
-                            {{--<div class="pricing_features" style="min-height: 0px;">--}}
-                            {{--<ul class="list-unstyled text-left">--}}
-                            {{--<li><i class="fa fa-circle-o text-danger"></i> Good work</li>--}}
-                            {{--<li><i class="fa fa-circle-o text-danger"></i> Could write more for contrasting</li>--}}
-                            {{--<li><i class="fa fa-circle-o text-danger"></i> Love the conclusion</li>--}}
-                            {{--</ul>--}}
-                            {{--</div>--}}
-                            {{--</div>--}}
-                            {{--</div>--}}
-                            {{--</div>--}}
-                            {{--</div>--}}
-                            {{--<div class="col-md-4 col-sm-6 col-xs-12">--}}
-                            {{--<div class="pricing">--}}
-                            {{--<div class="title" style="height: 80px; padding-top: 50px">--}}
-                            {{--<h2>Assignment 1</h2>--}}
-                            {{--</div>--}}
-                            {{--<div class="x_content">--}}
-                            {{--<div class="">--}}
-                            {{--<div class="pricing_features" style="min-height: 0px;">--}}
-                            {{--<ul class="list-unstyled text-left">--}}
-                            {{--<li><i class="fa fa-circle-o text-danger"></i> Good work</li>--}}
-                            {{--<li><i class="fa fa-circle-o text-danger"></i> Could write more for contrasting</li>--}}
-                            {{--<li><i class="fa fa-circle-o text-danger"></i> Love the conclusion</li>--}}
-                            {{--</ul>--}}
-                            {{--</div>--}}
-                            {{--</div>--}}
-                            {{--</div>--}}
-                            {{--</div>--}}
-                            {{--</div>--}}
-                            {{--</div>--}}
-                            {{--</div>--}}
-                            {{--<div class="row">--}}
-                            {{--<div class="col-md-12">--}}
-                            {{--<div class="col-md-4 col-sm-6 col-xs-12">--}}
-                            {{--<div class="pricing">--}}
-                            {{--<div class="title" style="height: 80px; padding-top: 50px">--}}
-                            {{--<h2>Assignment 1</h2>--}}
-                            {{--</div>--}}
-                            {{--<div class="x_content">--}}
-                            {{--<div class="">--}}
-                            {{--<div class="pricing_features" style="min-height: 0px;">--}}
-                            {{--<ul class="list-unstyled text-left">--}}
-                            {{--<li><i class="fa fa-circle-o text-danger"></i> Good work</li>--}}
-                            {{--<li><i class="fa fa-circle-o text-danger"></i> Could write more for contrasting</li>--}}
-                            {{--<li><i class="fa fa-circle-o text-danger"></i> Love the conclusion</li>--}}
-                            {{--</ul>--}}
-                            {{--</div>--}}
-                            {{--</div>--}}
-                            {{--</div>--}}
-                            {{--</div>--}}
-                            {{--</div>--}}
-                            {{--<div class="col-md-4 col-sm-6 col-xs-12">--}}
-                            {{--<div class="pricing">--}}
-                            {{--<div class="title" style="height: 80px; padding-top: 50px">--}}
-                            {{--<h2>Assignment 1</h2>--}}
-                            {{--</div>--}}
-                            {{--<div class="x_content">--}}
-                            {{--<div class="">--}}
-                            {{--<div class="pricing_features" style="min-height: 0px;">--}}
-                            {{--<ul class="list-unstyled text-left">--}}
-                            {{--<li><i class="fa fa-circle-o text-danger"></i> Good work</li>--}}
-                            {{--<li><i class="fa fa-circle-o text-danger"></i> Could write more for contrasting</li>--}}
-                            {{--<li><i class="fa fa-circle-o text-danger"></i> Love the conclusion</li>--}}
-                            {{--</ul>--}}
-                            {{--</div>--}}
-                            {{--</div>--}}
-                            {{--</div>--}}
-                            {{--</div>--}}
-                            {{--</div>--}}
-                            {{--</div>--}}
-                            {{--</div>--}}
+
                         </div>
                     </div>
                 </div>
@@ -659,8 +479,7 @@
                             <div class="container">
 
                                 <div class="col-lg-6">
-                                    <div class="row">
-                                        <div class="form-group">
+                                      <div class="form-group">
 
                                             <label class="control-label col-md-3 col-sm-3 col-xs-12" for="text-area-1">Why do you like this work?
                                                 <span class="required">*</span>
@@ -670,8 +489,7 @@
 
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="row">
+
                                         <div class="form-group">
                                             <label for="text-area-2" class="control-label col-md-3 col-sm-3 col-xs-12">What problems you see?
                                                 <span class="required">*</span>
@@ -680,10 +498,10 @@
                                                 <textarea type="text" id="text-area-2" name="text-area-2" required="required" class="form-control col-md-7 col-xs-12"></textarea>
                                             </div>
                                         </div>
-                                    </div>
+
                                 </div>
                                 <div class="col-lg-6">
-                                    <div class="row">
+
                                         <div class="form-group">
                                             <label class="control-label col-md-3 col-sm-3 col-xs-12" for="text-area-3">Why didn't you understand?
                                                 <span class="required">*</span>
@@ -692,8 +510,7 @@
                                                 <textarea type="text" id="text-area-3" name="text-area-3" required="required" class="form-control col-md-7 col-xs-12"></textarea>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="row">
+
                                         <div class="form-group">
                                             <label class="control-label col-md-3 col-sm-3 col-xs-12" for="text-area-4">How can this be improved?
                                                 <span class="required">*</span>
@@ -702,7 +519,7 @@
                                                 <textarea type="text" id="text-area-4" name="text-area-4" required="required" class="form-control col-md-7 col-xs-12"></textarea>
                                             </div>
                                         </div>
-                                    </div>
+
                                 </div>
                             </div>
 
@@ -766,7 +583,9 @@
                     </div>
                 </div>
 
-
+                <div class="col-md-6">
+                    <button type="submit" class="btn btn-success">Submit</button>
+                </div>
 
             </form>
 
@@ -889,9 +708,6 @@
 
                                     <textarea name="descr" id="descr" style="display:none;"></textarea>
 
-                                    {{--<div class="col-md-6 col-sm-6 col-xs-12">--}}
-                                    {{--<input type="text" id="author" required="required" class="form-control col-md-7 col-xs-12">--}}
-                                    {{--</div>--}}
                                 </div>
                             </div>
 
@@ -906,7 +722,6 @@
                             <h4>Details : Reviewer</h4>
                         </div>
                         <div class="bs-example" data-example-id="simple-jumbotron">
-                            {{--<div class="jumbotron">--}}
 
 
                             <div class="container">
@@ -925,93 +740,14 @@
                                     </label>
                                     <div class="col-md-6 col-sm-6 col-xs-12">
                                         <textarea type="text" id="description" name="description" required="required" class="form-control col-md-7 col-xs-12"></textarea>
-                                        {{--<input type="text" id="description" name="description" required="required" class="form-control col-md-7 col-xs-12">--}}
+
                                     </div>
                                 </div>
                             </div>
 
 
 
-                            {{--<div class="row">--}}
-                            {{--<div class="col-md-12">--}}
-                            {{--<div class="col-md-4 col-sm-6 col-xs-12">--}}
-                            {{--<div class="pricing">--}}
-                            {{--<div class="title" style="height: 80px; padding-top: 50px">--}}
-                            {{--<h2>Assignment 1</h2>--}}
-                            {{--</div>--}}
-                            {{--<div class="x_content">--}}
-                            {{--<div class="">--}}
-                            {{--<div class="pricing_features" style="min-height: 0px;">--}}
-                            {{--<ul class="list-unstyled text-left">--}}
-                            {{--<li><i class="fa fa-circle-o text-danger"></i> Good work</li>--}}
-                            {{--<li><i class="fa fa-circle-o text-danger"></i> Could write more for contrasting</li>--}}
-                            {{--<li><i class="fa fa-circle-o text-danger"></i> Love the conclusion</li>--}}
-                            {{--</ul>--}}
-                            {{--</div>--}}
-                            {{--</div>--}}
-                            {{--</div>--}}
-                            {{--</div>--}}
-                            {{--</div>--}}
-                            {{--<div class="col-md-4 col-sm-6 col-xs-12">--}}
-                            {{--<div class="pricing">--}}
-                            {{--<div class="title" style="height: 80px; padding-top: 50px">--}}
-                            {{--<h2>Assignment 1</h2>--}}
-                            {{--</div>--}}
-                            {{--<div class="x_content">--}}
-                            {{--<div class="">--}}
-                            {{--<div class="pricing_features" style="min-height: 0px;">--}}
-                            {{--<ul class="list-unstyled text-left">--}}
-                            {{--<li><i class="fa fa-circle-o text-danger"></i> Good work</li>--}}
-                            {{--<li><i class="fa fa-circle-o text-danger"></i> Could write more for contrasting</li>--}}
-                            {{--<li><i class="fa fa-circle-o text-danger"></i> Love the conclusion</li>--}}
-                            {{--</ul>--}}
-                            {{--</div>--}}
-                            {{--</div>--}}
-                            {{--</div>--}}
-                            {{--</div>--}}
-                            {{--</div>--}}
-                            {{--</div>--}}
-                            {{--</div>--}}
-                            {{--<div class="row">--}}
-                            {{--<div class="col-md-12">--}}
-                            {{--<div class="col-md-4 col-sm-6 col-xs-12">--}}
-                            {{--<div class="pricing">--}}
-                            {{--<div class="title" style="height: 80px; padding-top: 50px">--}}
-                            {{--<h2>Assignment 1</h2>--}}
-                            {{--</div>--}}
-                            {{--<div class="x_content">--}}
-                            {{--<div class="">--}}
-                            {{--<div class="pricing_features" style="min-height: 0px;">--}}
-                            {{--<ul class="list-unstyled text-left">--}}
-                            {{--<li><i class="fa fa-circle-o text-danger"></i> Good work</li>--}}
-                            {{--<li><i class="fa fa-circle-o text-danger"></i> Could write more for contrasting</li>--}}
-                            {{--<li><i class="fa fa-circle-o text-danger"></i> Love the conclusion</li>--}}
-                            {{--</ul>--}}
-                            {{--</div>--}}
-                            {{--</div>--}}
-                            {{--</div>--}}
-                            {{--</div>--}}
-                            {{--</div>--}}
-                            {{--<div class="col-md-4 col-sm-6 col-xs-12">--}}
-                            {{--<div class="pricing">--}}
-                            {{--<div class="title" style="height: 80px; padding-top: 50px">--}}
-                            {{--<h2>Assignment 1</h2>--}}
-                            {{--</div>--}}
-                            {{--<div class="x_content">--}}
-                            {{--<div class="">--}}
-                            {{--<div class="pricing_features" style="min-height: 0px;">--}}
-                            {{--<ul class="list-unstyled text-left">--}}
-                            {{--<li><i class="fa fa-circle-o text-danger"></i> Good work</li>--}}
-                            {{--<li><i class="fa fa-circle-o text-danger"></i> Could write more for contrasting</li>--}}
-                            {{--<li><i class="fa fa-circle-o text-danger"></i> Love the conclusion</li>--}}
-                            {{--</ul>--}}
-                            {{--</div>--}}
-                            {{--</div>--}}
-                            {{--</div>--}}
-                            {{--</div>--}}
-                            {{--</div>--}}
-                            {{--</div>--}}
-                            {{--</div>--}}
+
                         </div>
                     </div>
                 </div>
@@ -1028,7 +764,7 @@
                             <div class="container">
 
                                 <div class="col-lg-6">
-                                    <div class="row">
+
                                         <div class="form-group">
 
                                             <label class="control-label col-md-3 col-sm-3 col-xs-12" for="text-area-1">Why do you like this work?
@@ -1039,8 +775,7 @@
 
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="row">
+
                                         <div class="form-group">
                                             <label for="text-area-2" class="control-label col-md-3 col-sm-3 col-xs-12">What problems you see?
                                                 <span class="required">*</span>
@@ -1049,10 +784,10 @@
                                                 <textarea type="text" id="text-area-2" name="text-area-2" required="required" class="form-control col-md-7 col-xs-12"></textarea>
                                             </div>
                                         </div>
-                                    </div>
+
                                 </div>
                                 <div class="col-lg-6">
-                                    <div class="row">
+
                                         <div class="form-group">
                                             <label class="control-label col-md-3 col-sm-3 col-xs-12" for="text-area-3">Why didn't you understand?
                                                 <span class="required">*</span>
@@ -1061,8 +796,7 @@
                                                 <textarea type="text" id="text-area-3" name="text-area-3" required="required" class="form-control col-md-7 col-xs-12"></textarea>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="row">
+
                                         <div class="form-group">
                                             <label class="control-label col-md-3 col-sm-3 col-xs-12" for="text-area-4">How can this be improved?
                                                 <span class="required">*</span>
@@ -1071,7 +805,7 @@
                                                 <textarea type="text" id="text-area-4" name="text-area-4" required="required" class="form-control col-md-7 col-xs-12"></textarea>
                                             </div>
                                         </div>
-                                    </div>
+
                                 </div>
                             </div>
 
@@ -1135,7 +869,9 @@
                     </div>
                 </div>
 
-
+                <div class="col-md-6">
+                    <button type="submit" class="btn btn-success">Submit</button>
+                </div>
 
             </form>
 
