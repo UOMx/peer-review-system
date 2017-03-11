@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title')
-    Receive Grades
+    Assignment
     @stop
 
     @section('custom-include')

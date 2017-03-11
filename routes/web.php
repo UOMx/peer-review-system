@@ -32,8 +32,8 @@ Route::get('lecturer-view',function(){
    return view('lecturerView',compact('tab'));
 });
 
-Route::get('receive-grades', function(){
-    return view('receive_grades');
+Route::get('submit-assignment', function(){
+    return view('submit_assignment');
 });
 
 
