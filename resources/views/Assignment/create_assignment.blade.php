@@ -118,14 +118,24 @@
                             </div>
                           </div>
                           <div class="form-group">
-                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="last-name">Start Date <span class="required">*</span>
+                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="last-name">Assignment Period <span class="required">*</span>
                             </label>
                             <div class="col-md-6 col-sm-6 col-xs-12">
-                              <input type="text" id="last-name" name="last-name" required="required" class="form-control col-md-7 col-xs-12">
+                             <div class="container">
+                            
+                                <div class="input-prepend input-group">
+                                  <span class="add-on input-group-addon"><i class="glyphicon glyphicon-calendar "></i></span>
+                                  <input type="text" name="reservation-time" id="reservation-time" class="form-control" value="01/01/2016 - 01/25/2016" />
+                                </div>
+                             
+                              </div>     
                             </div>
-                          </div>
+
+
+                            </div>
+                    
                           <div class="form-group">
-                            <label for="middle-name" class="control-label col-md-3 col-sm-3 col-xs-12">Due Date</label>
+                            <label for="middle-name" class="control-label col-md-3 col-sm-3 col-xs-12">Assignment Type</label>
                             <div class="col-md-6 col-sm-6 col-xs-12">
                               <input id="middle-name" class="form-control col-md-7 col-xs-12" type="text" name="middle-name">
                             </div>
