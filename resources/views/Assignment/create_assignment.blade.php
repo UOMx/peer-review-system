@@ -93,7 +93,7 @@
                             <span class="step_no">3</span>
                             <span class="step_descr">
                                               Step 3<br />
-                                              <small>Questions</small>
+                                              <small>Rubric</small>
                                           </span>
                           </a>
                         </li>
@@ -118,14 +118,24 @@
                             </div>
                           </div>
                           <div class="form-group">
-                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="last-name">Start Date <span class="required">*</span>
+                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="last-name">Assignment Period <span class="required">*</span>
                             </label>
                             <div class="col-md-6 col-sm-6 col-xs-12">
-                              <input type="text" id="last-name" name="last-name" required="required" class="form-control col-md-7 col-xs-12">
+                             <div class="container">
+                            
+                                <div class="input-prepend input-group">
+                                  <span class="add-on input-group-addon"><i class="glyphicon glyphicon-calendar "></i></span>
+                                  <input type="text" name="reservation-time" id="reservation-time" class="form-control" value="01/01/2016 - 01/25/2016" />
+                                </div>
+                             
+                              </div>     
                             </div>
-                          </div>
+
+
+                            </div>
+                    
                           <div class="form-group">
-                            <label for="middle-name" class="control-label col-md-3 col-sm-3 col-xs-12">Due Date</label>
+                            <label for="middle-name" class="control-label col-md-3 col-sm-3 col-xs-12">Assignment Type</label>
                             <div class="col-md-6 col-sm-6 col-xs-12">
                               <input id="middle-name" class="form-control col-md-7 col-xs-12" type="text" name="middle-name">
                             </div>
@@ -243,12 +253,60 @@
             </div>
             </div>
             </div>
-                      </div>
+          </div>
                       <div id="step-3">
-                        <h2 class="StepTitle">Add Questions</h2>
-                        <p>
-                            Under Construction
-                        </p>
+                        <h2 class="StepTitle">Add Rubric</h2>
+                        <div class="container  col-md-3">
+                            <div class="row">
+                                  <div class="control-group " id="fields">
+                                      <label class="control-label" for="field1">Nice Multiple Form Fields</label>
+                                      <div class="controls"> 
+                                          <form role="form" autocomplete="off">
+                                              <div class="entry input-group">
+                                                  <input class="form-control" name="fields[]" type="text" placeholder="Type something" />
+                                                <span class="input-group-btn">
+                                                      <button class="btn btn-success btn-add " id="fixheight" type="button">
+                                                          <span class="glyphicon glyphicon-plus"></span>
+                                                      </button>
+                                                  </span>
+                                              </div>
+                                          </form>
+                                      <br>
+                                      <small>Press <span class="glyphicon glyphicon-plus gs"></span> to add another form field :)</small>
+                                      </div>
+                                  </div>
+                            </div>
+                          </div>
+                          <script type="text/javascript">
+                                                                $(function()
+                                    {
+                                        $(document).on('click', '.btn-add', function(e)
+                                        {
+                                            e.preventDefault();
+
+                                            var controlForm = $('.controls form:first'),
+                                                currentEntry = $(this).parents('.entry:first'),
+                                                newEntry = $(currentEntry.clone()).appendTo(controlForm);
+
+                                            newEntry.find('input').val('');
+                                            controlForm.find('.entry:not(:last) .btn-add')
+                                                .removeClass('btn-add').addClass('btn-remove')
+                                                .removeClass('btn-success').addClass('btn-danger')
+                                                .html('<span class="glyphicon glyphicon-minus"></span>');
+                                        }).on('click', '.btn-remove', function(e)
+                                        {
+                                        $(this).parents('.entry:first').remove();
+
+                                        e.preventDefault();
+                                        return false;
+  });
+});
+                                      $(document).ready(function() {
+        $("#fixheight").click(function() { $("#wizard"). smartWizard("fixHeight"); });
+    });
+
+                          </script>
+                        
                       </div>
                       <div id="step-4">
                         <!-- <h2 class="StepTitle">Grade Method</h2> -->
