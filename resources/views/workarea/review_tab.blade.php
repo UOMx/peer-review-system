@@ -179,7 +179,60 @@
                 </div>
 
 
+                <div class="x_panel">
+                    <div class="x_content">
+                        <div class="x_title">
+                            <h4>Grade Answer</h4>
+                        </div>
+                        <div class="bs-example" data-example-id="simple-jumbotron">
 
+
+
+                            <div class="container">
+
+                                <table class="table table-striped">
+                                    <thead>
+                                    <tr>
+                                        <th>Criteria</th>
+                                        <th>Excellent</th>
+                                        <th>Very good</th>
+                                        <th>Good</th>
+                                        <th>Fair</th>
+                                        <th>Weak</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <th scope="row">gjhggj kjhhkhjk</th>
+                                        <td>Mark</td>
+                                        <td>Otto</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">gggkjg ggk</th>
+                                        <td>Jacob</td>
+                                        <td>Thornton</td>
+                                        <td>@fat</td>
+                                        <td>@fat</td>
+                                        <td>@fat</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">gggk gjkgkg hkjhkjhk jkjhkhk bkkk jj</th>
+                                        <td>Larry</td>
+                                        <td>the Bird</td>
+                                        <td>@twitter</td>
+                                        <td>@twitter</td>
+                                        <td>@twitter</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
                 <div class="x_panel">
                     <div class="x_content">
                         <div class="x_title">
@@ -240,60 +293,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="x_panel">
-                    <div class="x_content">
-                        <div class="x_title">
-                            <h4>Grade Answer</h4>
-                        </div>
-                        <div class="bs-example" data-example-id="simple-jumbotron">
 
-
-
-                                <div class="container">
-
-                                    <table class="table table-striped">
-                                        <thead>
-                                        <tr>
-                                            <th>Criteria</th>
-                                            <th>Excellent</th>
-                                            <th>Very good</th>
-                                            <th>Good</th>
-                                            <th>Fair</th>
-                                            <th>Weak</th>
-                                        </tr>
-                                        </thead>
-                                        <tbody>
-                                        <tr>
-                                            <th scope="row">gjhggj kjhhkhjk</th>
-                                            <td>Mark</td>
-                                            <td>Otto</td>
-                                            <td>@mdo</td>
-                                            <td>@mdo</td>
-                                            <td>@mdo</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">gggkjg ggk</th>
-                                            <td>Jacob</td>
-                                            <td>Thornton</td>
-                                            <td>@fat</td>
-                                            <td>@fat</td>
-                                            <td>@fat</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">gggk gjkgkg hkjhkjhk jkjhkhk bkkk jj</th>
-                                            <td>Larry</td>
-                                            <td>the Bird</td>
-                                            <td>@twitter</td>
-                                            <td>@twitter</td>
-                                            <td>@twitter</td>
-                                        </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
 
                 <div class="col-md-6">
                     <button type="submit" class="btn btn-success">Submit</button>
@@ -468,66 +468,6 @@
                 </div>
 
 
-
-                <div class="x_panel">
-                    <div class="x_content">
-                        <div class="x_title">
-                            <h4>Your Ideas</h4>
-                        </div>
-                        <div class="bs-example" data-example-id="simple-jumbotron">
-
-                            <div class="container">
-
-                                <div class="col-lg-6">
-                                      <div class="form-group">
-
-                                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="text-area-1">Why do you like this work?
-                                                <span class="required">*</span>
-                                            </label>
-                                            <div class="col-md-6 col-sm-6 col-xs-12">
-                                                <textarea type="text" id="text-area-1" name="text-area-1" required="required" class="form-control col-md-7 col-xs-12"></textarea>
-
-                                            </div>
-                                        </div>
-
-                                        <div class="form-group">
-                                            <label for="text-area-2" class="control-label col-md-3 col-sm-3 col-xs-12">What problems you see?
-                                                <span class="required">*</span>
-                                            </label>
-                                            <div class="col-md-6 col-sm-6 col-xs-12">
-                                                <textarea type="text" id="text-area-2" name="text-area-2" required="required" class="form-control col-md-7 col-xs-12"></textarea>
-                                            </div>
-                                        </div>
-
-                                </div>
-                                <div class="col-lg-6">
-
-                                        <div class="form-group">
-                                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="text-area-3">Why didn't you understand?
-                                                <span class="required">*</span>
-                                            </label>
-                                            <div class="col-md-6 col-sm-6 col-xs-12">
-                                                <textarea type="text" id="text-area-3" name="text-area-3" required="required" class="form-control col-md-7 col-xs-12"></textarea>
-                                            </div>
-                                        </div>
-
-                                        <div class="form-group">
-                                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="text-area-4">How can this be improved?
-                                                <span class="required">*</span>
-                                            </label>
-                                            <div class="col-md-6 col-sm-6 col-xs-12">
-                                                <textarea type="text" id="text-area-4" name="text-area-4" required="required" class="form-control col-md-7 col-xs-12"></textarea>
-                                            </div>
-                                        </div>
-
-                                </div>
-                            </div>
-
-
-
-                        </div>
-                    </div>
-                </div>
                 <div class="x_panel">
                     <div class="x_content">
                         <div class="x_title">
@@ -578,6 +518,66 @@
                                     </tbody>
                                 </table>
                             </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="x_panel">
+                    <div class="x_content">
+                        <div class="x_title">
+                            <h4>Your Ideas</h4>
+                        </div>
+                        <div class="bs-example" data-example-id="simple-jumbotron">
+
+                            <div class="container">
+
+                                <div class="col-lg-6">
+
+                                    <div class="form-group">
+
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="text-area-1">Why do you like this work?
+                                            <span class="required">*</span>
+                                        </label>
+                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <textarea type="text" id="text-area-1" name="text-area-1" required="required" class="form-control col-md-7 col-xs-12"></textarea>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="text-area-2" class="control-label col-md-3 col-sm-3 col-xs-12">What problems you see?
+                                            <span class="required">*</span>
+                                        </label>
+                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <textarea type="text" id="text-area-2" name="text-area-2" required="required" class="form-control col-md-7 col-xs-12"></textarea>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-lg-6">
+
+                                    <div class="form-group">
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="text-area-3">Why didn't you understand?
+                                            <span class="required">*</span>
+                                        </label>
+                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <textarea type="text" id="text-area-3" name="text-area-3" required="required" class="form-control col-md-7 col-xs-12"></textarea>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="text-area-4">How can this be improved?
+                                            <span class="required">*</span>
+                                        </label>
+                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <textarea type="text" id="text-area-4" name="text-area-4" required="required" class="form-control col-md-7 col-xs-12"></textarea>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+
 
                         </div>
                     </div>
@@ -753,67 +753,6 @@
                 </div>
 
 
-
-                <div class="x_panel">
-                    <div class="x_content">
-                        <div class="x_title">
-                            <h4>Your Ideas</h4>
-                        </div>
-                        <div class="bs-example" data-example-id="simple-jumbotron">
-
-                            <div class="container">
-
-                                <div class="col-lg-6">
-
-                                        <div class="form-group">
-
-                                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="text-area-1">Why do you like this work?
-                                                <span class="required">*</span>
-                                            </label>
-                                            <div class="col-md-6 col-sm-6 col-xs-12">
-                                                <textarea type="text" id="text-area-1" name="text-area-1" required="required" class="form-control col-md-7 col-xs-12"></textarea>
-
-                                            </div>
-                                        </div>
-
-                                        <div class="form-group">
-                                            <label for="text-area-2" class="control-label col-md-3 col-sm-3 col-xs-12">What problems you see?
-                                                <span class="required">*</span>
-                                            </label>
-                                            <div class="col-md-6 col-sm-6 col-xs-12">
-                                                <textarea type="text" id="text-area-2" name="text-area-2" required="required" class="form-control col-md-7 col-xs-12"></textarea>
-                                            </div>
-                                        </div>
-
-                                </div>
-                                <div class="col-lg-6">
-
-                                        <div class="form-group">
-                                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="text-area-3">Why didn't you understand?
-                                                <span class="required">*</span>
-                                            </label>
-                                            <div class="col-md-6 col-sm-6 col-xs-12">
-                                                <textarea type="text" id="text-area-3" name="text-area-3" required="required" class="form-control col-md-7 col-xs-12"></textarea>
-                                            </div>
-                                        </div>
-
-                                        <div class="form-group">
-                                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="text-area-4">How can this be improved?
-                                                <span class="required">*</span>
-                                            </label>
-                                            <div class="col-md-6 col-sm-6 col-xs-12">
-                                                <textarea type="text" id="text-area-4" name="text-area-4" required="required" class="form-control col-md-7 col-xs-12"></textarea>
-                                            </div>
-                                        </div>
-
-                                </div>
-                            </div>
-
-
-
-                        </div>
-                    </div>
-                </div>
                 <div class="x_panel">
                     <div class="x_content">
                         <div class="x_title">
@@ -868,7 +807,66 @@
                         </div>
                     </div>
                 </div>
+                <div class="x_panel">
+                    <div class="x_content">
+                        <div class="x_title">
+                            <h4>Your Ideas</h4>
+                        </div>
+                        <div class="bs-example" data-example-id="simple-jumbotron">
 
+                            <div class="container">
+
+                                <div class="col-lg-6">
+
+                                    <div class="form-group">
+
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="text-area-1">Why do you like this work?
+                                            <span class="required">*</span>
+                                        </label>
+                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <textarea type="text" id="text-area-1" name="text-area-1" required="required" class="form-control col-md-7 col-xs-12"></textarea>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="text-area-2" class="control-label col-md-3 col-sm-3 col-xs-12">What problems you see?
+                                            <span class="required">*</span>
+                                        </label>
+                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <textarea type="text" id="text-area-2" name="text-area-2" required="required" class="form-control col-md-7 col-xs-12"></textarea>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-lg-6">
+
+                                    <div class="form-group">
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="text-area-3">Why didn't you understand?
+                                            <span class="required">*</span>
+                                        </label>
+                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <textarea type="text" id="text-area-3" name="text-area-3" required="required" class="form-control col-md-7 col-xs-12"></textarea>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="text-area-4">How can this be improved?
+                                            <span class="required">*</span>
+                                        </label>
+                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <textarea type="text" id="text-area-4" name="text-area-4" required="required" class="form-control col-md-7 col-xs-12"></textarea>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                </div>
                 <div class="col-md-6">
                     <button type="submit" class="btn btn-success">Submit</button>
                 </div>
