@@ -12,7 +12,7 @@ for ($i = 0; $i < count($marks); $i += 1) {
 }
 ?>
 
-<div class="col-md-6 col-sm-6 col-xs-12" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html"
+<div class="col-md-12 col-sm-12 col-xs-12" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html"
      xmlns="http://www.w3.org/1999/html">
     <div class="x_panel">
         <div class="x_title">

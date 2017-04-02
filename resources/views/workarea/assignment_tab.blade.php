@@ -9,9 +9,7 @@
     <div class="x_panel">
 
         <div class="x_content">
-            <p>
-                this should provide preview of the assignment
-            </p>
+            <iframe id="assignment" title="PDF in an i-Frame" src="pdf/Toc_2017_Assignment.pdf#page=1&zoom=100"  scrolling="auto" height="400px" width="850px" ></iframe>
         </div>
     </div>
 </div>
