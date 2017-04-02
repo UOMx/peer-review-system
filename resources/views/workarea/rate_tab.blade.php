@@ -17,6 +17,7 @@
 
 
 </style>
+
 <div class = "right-col" role = "main" style = "min-height: 100%">
     <div class = "col-md-12 col-sm-12 col-xs-12">
         <div class = "col-md-9 col-sm-9 col-xs-12">
@@ -52,6 +53,7 @@
     </div>
 
 </div>
+
 
 
 <script>

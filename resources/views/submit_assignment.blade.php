@@ -1,10 +1,10 @@
-@extends('layouts.master')
+{{--@extends('layouts.master')--}}
 
-@section('title')
-    Assignment
-    @stop
+{{--@section('title')--}}
+    {{--Assignment--}}
+    {{--@stop--}}
 
-    @section('custom-include')
+    {{--@section('custom-include')--}}
             <!-- iCheck -->
     <link href="gentelella-theme/vendors/iCheck/skins/flat/green.css" rel="stylesheet">
     <!-- bootstrap-wysiwyg -->
@@ -22,12 +22,12 @@
 
 
 
-@endsection
-@section('content')
-    <div class="main_container">
-        @include('includes.sidebar')
-        @include('includes.top-navigation')
-        <div class="right_col" role="main">
+{{--@endsection--}}
+{{--@section('content')--}}
+    {{--<div class="main_container">--}}
+        {{--@include('includes.sidebar')--}}
+        {{--@include('includes.top-navigation')--}}
+        <div class="left_col" role="main">
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12">
                     <div class="x_panel">
@@ -81,9 +81,9 @@
                 </div>
             </div>
         </div>
-    </div>
-    @include('includes.footer')
-    @section('custom-footer-include')
+    {{--</div>--}}
+    {{--@include('includes.footer')--}}
+    {{--@section('custom-footer-include')--}}
 
             <!-- bootstrap-wysiwyg -->
     <script src="gentelella-theme/vendors/bootstrap-wysiwyg/js/bootstrap-wysiwyg.min.js"></script>
@@ -106,5 +106,5 @@
     <!-- Dropzone.js -->
     <script src="gentelella-theme/vendors/dropzone/dist/min/dropzone.min.js"></script>
 
-@endsection
-@stop
+{{--@endsection--}}
+{{--@stop--}}

@@ -41,4 +41,6 @@ Route::get('create-assignment', function(){
     return view('Assignment.create_assignment');
 });
 
+Route::get('/{id}',['as'=>'course','uses' => 'CourseController@getCourse']);
+
  
