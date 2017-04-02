@@ -12,12 +12,14 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('auth.login');
 });
 
 Route::get('/login', function () {
     return view('auth.login');
 });
+
+Route::post('submit-login',['as'=>'submit-login','uses'=>'UserController@login']);
 
 Route::get('/dashboard', function () {
     return view('dashboard.index');
@@ -28,7 +30,7 @@ Route::get('review-feedback', function(){
 });
 
 Route::get('lecturer-view',function(){
-    $tab=0;
+  
    return view('lecturerView',compact('tab'));
 });
 

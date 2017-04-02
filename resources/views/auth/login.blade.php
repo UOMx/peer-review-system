@@ -33,16 +33,18 @@
         <!-- Login -->
         <div class="animate form login_form" style="margin-top: 60px">
             <section class="login_content">
-                <form>
+                <form action="{{route('submit-login')}}" method="post">
                     <h2>Login</h2>
                     <div>
-                        <input type="text" class="form-control" placeholder="Username" required="" />
+                        <input name="username" id="username" type="text" class="form-control" placeholder="Username" required="" />
                     </div>
                     <div>
-                        <input type="password" class="form-control" placeholder="Password" required="" />
+                        <input name="password" id="password" type="password" class="form-control" placeholder="Password" required="" />
                     </div>
                     <div>
-                        <a class="btn btn-default submit" href="/dashboard">Log in</a>
+                        <button  class="btn btn-default submit"role="submit">Login</button>
+                        <input  type="hidden" name="_token" value="{{Session::token()}}">
+                        {{--<a class="btn btn-default submit"  role="submit">Log in</a>--}}
                         <a class="reset_pass" href="#">Lost your password?</a>
                     </div>
 
