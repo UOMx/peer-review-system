@@ -3830,6 +3830,7 @@ fieldset {
     position: relative;
     margin: 0;
     padding: 0;
+    height: 100%;
     border: 0 solid #CCC;
     overflow-x: hidden
 }
@@ -3898,6 +3899,7 @@ fieldset {
 }
 .wizard_verticle .stepContainer {
     width: 80%;
+    height: 220px;
     float: left;
     padding: 0 10px
 }

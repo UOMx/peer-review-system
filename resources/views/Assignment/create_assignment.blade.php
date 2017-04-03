@@ -144,13 +144,12 @@
 
                                     <div class="input-prepend input-group">
                                         <span class="add-on input-group-addon"><i class="glyphicon glyphicon-calendar "></i></span>
-                                        <input type="text" name="reservation-time" id="reservation-time" class="form-control" value="01/01/2016 - 01/25/2016" />
+                                       <input type="text" class="form-control" id="single_cal2">
                                     </div>
 
                                 </div>
                             </div>
                           </div>
-
                         </form>
 
                       </div>

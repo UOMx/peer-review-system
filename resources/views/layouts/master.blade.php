@@ -58,7 +58,7 @@
 <!-- Chart.js -->
 <script src="gentelella-theme/vendors/Chart.js/dist/Chart.min.js"></script>
 <!-- gauge.js -->
-<script src="gentelella-theme/vendors/gauge.js/dist/gauge.min.js'"></script>
+<script src="gentelella-theme/vendors/gauge.js/dist/gauge.min.js"></script>
 <!-- bootstrap-progressbar -->
 <script src="gentelella-theme/vendors/bootstrap-progressbar/bootstrap-progressbar.min.js"></script>
 <!-- iCheck -->
