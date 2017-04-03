@@ -6,18 +6,18 @@
 
 @section('custom-include')
 
- 
+
 @stop
 
 @section('content')
- 
+
       <div class="main_container">
         @include('includes.sidebar')
         @include('includes.top-navigation')
 
 
         <!-- top navigation -->
-        
+
         <!-- /top navigation -->
 
         <!-- page content -->
@@ -123,19 +123,19 @@
                             </label>
                             <div class="col-md-6 col-sm-6 col-xs-12">
                              <div class="container">
-                            
+
                                 <div class="input-prepend input-group">
                                   <span class="add-on input-group-addon"><i class="glyphicon glyphicon-calendar "></i></span>
                                   <input type="text" name="reservation-time" id="reservation-time" class="form-control" value="01/01/2016 - 01/25/2016" />
                                 </div>
-                             
-                              </div>     
+
+                              </div>
                             </div>
 
 
                             </div>
 
-                          
+
                           <div class="form-group">
                             <label class="control-label col-md-3 col-sm-3 col-xs-12">Extended Date <span class="required">*</span>
                             </label>
@@ -255,59 +255,72 @@
             </div>
             </div>
           </div>
-                      <div id="step-3">
-                        <h2 class="StepTitle">Add Rubric</h2>
+            <div id="step-3">
+                <h2 class="StepTitle">Add Rubric</h2>
                         <div class="container  col-md-3">
                             <div class="row">
-                                  <div class="control-group " id="fields">
-                                      <label class="control-label" for="field1">Enter rubric categories to grade the assignment. You may add multiple categories</label>
-                                      <div class="controls"> 
-                                          <form role="form" autocomplete="off">
-                                              <div class="entry input-group">
-                                                  <input class="form-control" name="fields[]" type="text" placeholder="Type something" />
-                                                <span class="input-group-btn">
-                                                      <button class="btn btn-success btn-add " id="fixheight" type="button">
-                                                          <span class="glyphicon glyphicon-plus"></span>
-                                                      </button>
-                                                  </span>
-                                              </div>
-                                          </form>
-                                      <br>
-                                      <small>Press <span class="glyphicon glyphicon-plus gs"></span> to add another form field :)</small>
-                                      </div>
-                                  </div>
+                              <div class="container">
+<div class="row clearfix">
+<div class="col-md-12 column">
+  <table class="table table-bordered table-hover" id="tab_logic">
+    <thead>
+      <tr >
+        <th class="text-center">
+          #
+        </th>
+        <th class="text-center col-md-9">
+          Rubric
+        </th>
+        <th class="text-center col-md-3">
+          Marks Allocation
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr id='addr0'>
+        <td>
+        1
+        </td>
+        <td>
+        <input type="text" name='rubric'  placeholder='Rubric name' class="form-control"/>
+        </td>
+        <td>
+        <input type="text" name='marks' placeholder='Marks' class="form-control"/>
+        </td>
+      </tr>
+                <tr id='addr1'></tr>
+    </tbody>
+  </table>
+</div>
+</div>
+<a id="add_row" class="btn btn-default pull-left">Add Row</a><a id='delete_row' class="pull-right btn btn-default">Delete Row</a>
+</div>
                             </div>
                           </div>
                           <script type="text/javascript">
-                                                                $(function()
-                                    {
-                                        $(document).on('click', '.btn-add', function(e)
-                                        {
-                                            e.preventDefault();
+                          $(document).ready(function(){
 
-                                            var controlForm = $('.controls form:first'),
-                                                currentEntry = $(this).parents('.entry:first'),
-                                                newEntry = $(currentEntry.clone()).appendTo(controlForm);
+     var i=1;
+    $("#add_row").click(function(){
+     $('#addr'+i).html("<td>"+ (i+1) +"</td><td><input name='rubric"+i+"' type='text' placeholder='Rubric name' class='form-control input-md'  /> </td><td><input  name='marks"+i+"' type='text' placeholder='Marks'  class='form-control input-md'></td>");
+     $("#wizard"). smartWizard("fixHeight");
+     $('#tab_logic').append('<tr id="addr'+(i+1)+'"></tr>');
+     i++;
+ });
+    $("#delete_row").click(function(){
 
-                                            newEntry.find('input').val('');
-                                            controlForm.find('.entry:not(:last) .btn-add')
-                                                .removeClass('btn-add').addClass('btn-remove')
-                                                .removeClass('btn-success').addClass('btn-danger')
-                                                .html('<span class="glyphicon glyphicon-minus"></span>');
-                                        }).on('click', '.btn-remove', function(e)
-                                        {
-                                        $(this).parents('.entry:first').remove();
-
-                                        e.preventDefault();
-                                        return false;
+      if(i>1){
+    $("#addr"+(i-1)).html('');
+    i--;
+    }
+    $("#wizard"). smartWizard("fixHeight");
   });
+
 });
-                                      $(document).ready(function() {
-        $("#fixheight").click(function() { $("#wizard"). smartWizard("fixHeight"); });
-    });
+
 
                           </script>
-                        
+
                       </div>
                       <div id="step-4">
                         <!-- <h2 class="StepTitle">Grade Method</h2> -->
@@ -317,9 +330,9 @@
                             <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">Grade to pass <span class="required">*</span>
                             </label>
                             <div class="col-md-6 col-sm-6 col-xs-12">
-                              <input type="text" id="first-name" required="required" class="form-control col-md-7 col-xs-12">
+                              <input type="text" id="grade_to_pass" required="required" class="form-control col-md-7 col-xs-12">
                             </div>
-                          </div>                         
+                          </div>
                         </form>
 
                       </div>
@@ -338,8 +351,8 @@
         @include('includes.footer')
         <!-- /footer content -->
       </div>
-    
-      
+
+
     <!-- FastClick -->
     <script src="gentelella-theme/vendors/fastclick/lib/fastclick.js"></script>
     <!-- NProgress -->
@@ -369,6 +382,6 @@
     <script src="gentelella-theme/vendors/devbridge-autocomplete/dist/jquery.autocomplete.min.js"></script>
     <!-- starrr -->
     <script src="gentelella-theme/vendors/starrr/dist/starrr.js"></script>
-     
-   
+
+
  @stop
