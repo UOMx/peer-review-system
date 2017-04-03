@@ -272,7 +272,7 @@
           Rubric
         </th>
         <th class="text-center col-md-3">
-          Marks Allocation
+          Mark Allocation
         </th>
       </tr>
     </thead>
@@ -285,7 +285,7 @@
         <input type="text" name='rubric'  placeholder='Rubric name' class="form-control"/>
         </td>
         <td>
-        <input type="text" name='marks' placeholder='Marks' class="form-control"/>
+        <input type="text" name='mark' placeholder='Mark' class="form-control"/>
         </td>
       </tr>
                 <tr id='addr1'></tr>
@@ -302,7 +302,7 @@
 
      var i=1;
     $("#add_row").click(function(){
-     $('#addr'+i).html("<td>"+ (i+1) +"</td><td><input name='rubric"+i+"' type='text' placeholder='Rubric name' class='form-control input-md'  /> </td><td><input  name='marks"+i+"' type='text' placeholder='Marks'  class='form-control input-md'></td>");
+     $('#addr'+i).html("<td>"+ (i+1) +"</td><td><input name='rubric"+i+"' type='text' placeholder='Rubric name' class='form-control input-md'  /> </td><td><input  name='mark"+i+"' type='text' placeholder='Mark'  class='form-control input-md'></td>");
      $("#wizard"). smartWizard("fixHeight");
      $('#tab_logic').append('<tr id="addr'+(i+1)+'"></tr>');
      i++;
