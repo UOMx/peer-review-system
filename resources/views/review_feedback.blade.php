@@ -36,7 +36,7 @@
                     <div class="x_panel">
                         <div class="x_content">
                             <div class role="tabpanel" data-example-id="togglable-tabs">
-                                <ul id = "myTab" class = "nav nav-tabs bar-tabs" role="tablist">
+                                <ul id="myTab" class="nav nav-tabs bar-tabs" role="tablist">
                                     <!--Tab panel for 1st reviewer-->
                                     <li role="presentation" class="active in">
                                         <a href="#tab_content1" id="first-reviewer-tab" role="tab" data-toggle="tab">
@@ -59,7 +59,8 @@
                                 <!--Tab content panels-->
                                 <div id="myTabContent" class="tab-content">
                                     <!--Tab content for 1st reviewer-->
-                                    <div role="tabpanel" class="tab-pane fade active in" id="tab_content1" aria-labelledby="first-reviewer-tab">
+                                    <div role="tabpanel" class="tab-pane fade active in" id="tab_content1"
+                                         aria-labelledby="first-reviewer-tab">
                                         <div class="x_panel">
                                             <!--Assignment feedbacks-->
                                             <div class="x_content">
@@ -70,16 +71,28 @@
                                                             <div class="col-md-12">
                                                                 <div class="col-md-4 col-sm-6 col-xs-12">
                                                                     <div class="pricing">
-                                                                        <div class="title" style="height: 80px; padding-top: 50px">
+                                                                        <div class="title"
+                                                                             style="height: 80px; padding-top: 50px">
                                                                             <h2>Assignment 1</h2>
                                                                         </div>
                                                                         <div class="x_content">
                                                                             <div class="">
-                                                                                <div class="pricing_features" style="min-height: 0px;">
+                                                                                <div class="pricing_features"
+                                                                                     style="min-height: 0px;">
                                                                                     <ul class="list-unstyled text-left">
-                                                                                        <li><i class="fa fa-circle-o text-danger"></i> Good work</li>
-                                                                                        <li><i class="fa fa-circle-o text-danger"></i> Could write more for contrasting</li>
-                                                                                        <li><i class="fa fa-circle-o text-danger"></i> Love the conclusion</li>
+                                                                                        <li>
+                                                                                            <i class="fa fa-circle-o text-danger"></i>
+                                                                                            Good work
+                                                                                        </li>
+                                                                                        <li>
+                                                                                            <i class="fa fa-circle-o text-danger"></i>
+                                                                                            Could write more for
+                                                                                            contrasting
+                                                                                        </li>
+                                                                                        <li>
+                                                                                            <i class="fa fa-circle-o text-danger"></i>
+                                                                                            Love the conclusion
+                                                                                        </li>
                                                                                     </ul>
                                                                                 </div>
                                                                             </div>
@@ -88,16 +101,28 @@
                                                                 </div>
                                                                 <div class="col-md-4 col-sm-6 col-xs-12">
                                                                     <div class="pricing">
-                                                                        <div class="title" style="height: 80px; padding-top: 50px">
+                                                                        <div class="title"
+                                                                             style="height: 80px; padding-top: 50px">
                                                                             <h2>Assignment 1</h2>
                                                                         </div>
                                                                         <div class="x_content">
                                                                             <div class="">
-                                                                                <div class="pricing_features" style="min-height: 0px;">
+                                                                                <div class="pricing_features"
+                                                                                     style="min-height: 0px;">
                                                                                     <ul class="list-unstyled text-left">
-                                                                                        <li><i class="fa fa-circle-o text-danger"></i> Good work</li>
-                                                                                        <li><i class="fa fa-circle-o text-danger"></i> Could write more for contrasting</li>
-                                                                                        <li><i class="fa fa-circle-o text-danger"></i> Love the conclusion</li>
+                                                                                        <li>
+                                                                                            <i class="fa fa-circle-o text-danger"></i>
+                                                                                            Good work
+                                                                                        </li>
+                                                                                        <li>
+                                                                                            <i class="fa fa-circle-o text-danger"></i>
+                                                                                            Could write more for
+                                                                                            contrasting
+                                                                                        </li>
+                                                                                        <li>
+                                                                                            <i class="fa fa-circle-o text-danger"></i>
+                                                                                            Love the conclusion
+                                                                                        </li>
                                                                                     </ul>
                                                                                 </div>
                                                                             </div>
@@ -110,16 +135,28 @@
                                                             <div class="col-md-12">
                                                                 <div class="col-md-4 col-sm-6 col-xs-12">
                                                                     <div class="pricing">
-                                                                        <div class="title" style="height: 80px; padding-top: 50px">
+                                                                        <div class="title"
+                                                                             style="height: 80px; padding-top: 50px">
                                                                             <h2>Assignment 1</h2>
                                                                         </div>
                                                                         <div class="x_content">
                                                                             <div class="">
-                                                                                <div class="pricing_features" style="min-height: 0px;">
+                                                                                <div class="pricing_features"
+                                                                                     style="min-height: 0px;">
                                                                                     <ul class="list-unstyled text-left">
-                                                                                        <li><i class="fa fa-circle-o text-danger"></i> Good work</li>
-                                                                                        <li><i class="fa fa-circle-o text-danger"></i> Could write more for contrasting</li>
-                                                                                        <li><i class="fa fa-circle-o text-danger"></i> Love the conclusion</li>
+                                                                                        <li>
+                                                                                            <i class="fa fa-circle-o text-danger"></i>
+                                                                                            Good work
+                                                                                        </li>
+                                                                                        <li>
+                                                                                            <i class="fa fa-circle-o text-danger"></i>
+                                                                                            Could write more for
+                                                                                            contrasting
+                                                                                        </li>
+                                                                                        <li>
+                                                                                            <i class="fa fa-circle-o text-danger"></i>
+                                                                                            Love the conclusion
+                                                                                        </li>
                                                                                     </ul>
                                                                                 </div>
                                                                             </div>
@@ -128,16 +165,28 @@
                                                                 </div>
                                                                 <div class="col-md-4 col-sm-6 col-xs-12">
                                                                     <div class="pricing">
-                                                                        <div class="title" style="height: 80px; padding-top: 50px">
+                                                                        <div class="title"
+                                                                             style="height: 80px; padding-top: 50px">
                                                                             <h2>Assignment 1</h2>
                                                                         </div>
                                                                         <div class="x_content">
                                                                             <div class="">
-                                                                                <div class="pricing_features" style="min-height: 0px;">
+                                                                                <div class="pricing_features"
+                                                                                     style="min-height: 0px;">
                                                                                     <ul class="list-unstyled text-left">
-                                                                                        <li><i class="fa fa-circle-o text-danger"></i> Good work</li>
-                                                                                        <li><i class="fa fa-circle-o text-danger"></i> Could write more for contrasting</li>
-                                                                                        <li><i class="fa fa-circle-o text-danger"></i> Love the conclusion</li>
+                                                                                        <li>
+                                                                                            <i class="fa fa-circle-o text-danger"></i>
+                                                                                            Good work
+                                                                                        </li>
+                                                                                        <li>
+                                                                                            <i class="fa fa-circle-o text-danger"></i>
+                                                                                            Could write more for
+                                                                                            contrasting
+                                                                                        </li>
+                                                                                        <li>
+                                                                                            <i class="fa fa-circle-o text-danger"></i>
+                                                                                            Love the conclusion
+                                                                                        </li>
                                                                                     </ul>
                                                                                 </div>
                                                                             </div>
@@ -167,9 +216,11 @@
                                         <div class="x_panel">
                                             <div class="x_content">
                                                 <div class="jumbotron">
-                                                    <p>If you have any concern of these review, please feel free to communicate.</p>
+                                                    <p>If you have any concern of these review, please feel free to
+                                                        communicate.</p>
                                                     <div>
-                                                        <textarea id="message" autocomplete="off" class="form-control" data-parsley-trigger="keyup">
+                                                        <textarea id="message" autocomplete="off" class="form-control"
+                                                                  data-parsley-trigger="keyup">
                                                         </textarea>
                                                     </div>
                                                     <br>
@@ -179,7 +230,8 @@
                                         </div>
                                     </div>
                                     <!--Tab content for 2nd reviewer-->
-                                    <div role="tabpanel" class="tab-pane fade" id="tab_content2" aria-labelledby="second-reviewer-tab">
+                                    <div role="tabpanel" class="tab-pane fade" id="tab_content2"
+                                         aria-labelledby="second-reviewer-tab">
                                         <div class="x_panel">
                                             <div class="x_content">
                                                 <div class="bs-example" data-example-id="simple-jumbotron">
@@ -189,16 +241,28 @@
                                                             <div class="col-md-12">
                                                                 <div class="col-md-4 col-sm-6 col-xs-12">
                                                                     <div class="pricing">
-                                                                        <div class="title" style="height: 80px; padding-top: 50px">
+                                                                        <div class="title"
+                                                                             style="height: 80px; padding-top: 50px">
                                                                             <h2>Assignment 1</h2>
                                                                         </div>
                                                                         <div class="x_content">
                                                                             <div class="">
-                                                                                <div class="pricing_features" style="min-height: 0px;">
+                                                                                <div class="pricing_features"
+                                                                                     style="min-height: 0px;">
                                                                                     <ul class="list-unstyled text-left">
-                                                                                        <li><i class="fa fa-circle-o text-danger"></i> Good work</li>
-                                                                                        <li><i class="fa fa-circle-o text-danger"></i> Could write more for contrasting</li>
-                                                                                        <li><i class="fa fa-circle-o text-danger"></i> Love the conclusion</li>
+                                                                                        <li>
+                                                                                            <i class="fa fa-circle-o text-danger"></i>
+                                                                                            Good work
+                                                                                        </li>
+                                                                                        <li>
+                                                                                            <i class="fa fa-circle-o text-danger"></i>
+                                                                                            Could write more for
+                                                                                            contrasting
+                                                                                        </li>
+                                                                                        <li>
+                                                                                            <i class="fa fa-circle-o text-danger"></i>
+                                                                                            Love the conclusion
+                                                                                        </li>
                                                                                     </ul>
                                                                                 </div>
                                                                             </div>
@@ -207,16 +271,28 @@
                                                                 </div>
                                                                 <div class="col-md-4 col-sm-6 col-xs-12">
                                                                     <div class="pricing">
-                                                                        <div class="title" style="height: 80px; padding-top: 50px">
+                                                                        <div class="title"
+                                                                             style="height: 80px; padding-top: 50px">
                                                                             <h2>Assignment 1</h2>
                                                                         </div>
                                                                         <div class="x_content">
                                                                             <div class="">
-                                                                                <div class="pricing_features" style="min-height: 0px;">
+                                                                                <div class="pricing_features"
+                                                                                     style="min-height: 0px;">
                                                                                     <ul class="list-unstyled text-left">
-                                                                                        <li><i class="fa fa-circle-o text-danger"></i> Good work</li>
-                                                                                        <li><i class="fa fa-circle-o text-danger"></i> Could write more for contrasting</li>
-                                                                                        <li><i class="fa fa-circle-o text-danger"></i> Love the conclusion</li>
+                                                                                        <li>
+                                                                                            <i class="fa fa-circle-o text-danger"></i>
+                                                                                            Good work
+                                                                                        </li>
+                                                                                        <li>
+                                                                                            <i class="fa fa-circle-o text-danger"></i>
+                                                                                            Could write more for
+                                                                                            contrasting
+                                                                                        </li>
+                                                                                        <li>
+                                                                                            <i class="fa fa-circle-o text-danger"></i>
+                                                                                            Love the conclusion
+                                                                                        </li>
                                                                                     </ul>
                                                                                 </div>
                                                                             </div>
@@ -229,16 +305,28 @@
                                                             <div class="col-md-12">
                                                                 <div class="col-md-4 col-sm-6 col-xs-12">
                                                                     <div class="pricing">
-                                                                        <div class="title" style="height: 80px; padding-top: 50px">
+                                                                        <div class="title"
+                                                                             style="height: 80px; padding-top: 50px">
                                                                             <h2>Assignment 1</h2>
                                                                         </div>
                                                                         <div class="x_content">
                                                                             <div class="">
-                                                                                <div class="pricing_features" style="min-height: 0px;">
+                                                                                <div class="pricing_features"
+                                                                                     style="min-height: 0px;">
                                                                                     <ul class="list-unstyled text-left">
-                                                                                        <li><i class="fa fa-circle-o text-danger"></i> Good work</li>
-                                                                                        <li><i class="fa fa-circle-o text-danger"></i> Could write more for contrasting</li>
-                                                                                        <li><i class="fa fa-circle-o text-danger"></i> Love the conclusion</li>
+                                                                                        <li>
+                                                                                            <i class="fa fa-circle-o text-danger"></i>
+                                                                                            Good work
+                                                                                        </li>
+                                                                                        <li>
+                                                                                            <i class="fa fa-circle-o text-danger"></i>
+                                                                                            Could write more for
+                                                                                            contrasting
+                                                                                        </li>
+                                                                                        <li>
+                                                                                            <i class="fa fa-circle-o text-danger"></i>
+                                                                                            Love the conclusion
+                                                                                        </li>
                                                                                     </ul>
                                                                                 </div>
                                                                             </div>
@@ -247,16 +335,28 @@
                                                                 </div>
                                                                 <div class="col-md-4 col-sm-6 col-xs-12">
                                                                     <div class="pricing">
-                                                                        <div class="title" style="height: 80px; padding-top: 50px">
+                                                                        <div class="title"
+                                                                             style="height: 80px; padding-top: 50px">
                                                                             <h2>Assignment 1</h2>
                                                                         </div>
                                                                         <div class="x_content">
                                                                             <div class="">
-                                                                                <div class="pricing_features" style="min-height: 0px;">
+                                                                                <div class="pricing_features"
+                                                                                     style="min-height: 0px;">
                                                                                     <ul class="list-unstyled text-left">
-                                                                                        <li><i class="fa fa-circle-o text-danger"></i> Good work</li>
-                                                                                        <li><i class="fa fa-circle-o text-danger"></i> Could write more for contrasting</li>
-                                                                                        <li><i class="fa fa-circle-o text-danger"></i> Love the conclusion</li>
+                                                                                        <li>
+                                                                                            <i class="fa fa-circle-o text-danger"></i>
+                                                                                            Good work
+                                                                                        </li>
+                                                                                        <li>
+                                                                                            <i class="fa fa-circle-o text-danger"></i>
+                                                                                            Could write more for
+                                                                                            contrasting
+                                                                                        </li>
+                                                                                        <li>
+                                                                                            <i class="fa fa-circle-o text-danger"></i>
+                                                                                            Love the conclusion
+                                                                                        </li>
                                                                                     </ul>
                                                                                 </div>
                                                                             </div>
@@ -286,9 +386,11 @@
                                         <div class="x_panel">
                                             <div class="x_content">
                                                 <div class="jumbotron">
-                                                    <p>If you have any concern of these review, please feel free to communicate.</p>
+                                                    <p>If you have any concern of these review, please feel free to
+                                                        communicate.</p>
                                                     <div>
-                                                        <textarea id="message" autocomplete="off" class="form-control" data-parsley-trigger="keyup">
+                                                        <textarea id="message" autocomplete="off" class="form-control"
+                                                                  data-parsley-trigger="keyup">
                                                         </textarea>
                                                     </div>
                                                     <br>
@@ -298,7 +400,8 @@
                                         </div>
                                     </div>
                                     <!--Tab content for 3rd reviewer-->
-                                    <div role="tabpanel" class="tab-pane fade" id="tab_content3" aria-labelledby="third-reviewer-tab">
+                                    <div role="tabpanel" class="tab-pane fade" id="tab_content3"
+                                         aria-labelledby="third-reviewer-tab">
                                         <div class="x_panel">
                                             <div class="x_content">
                                                 <div class="bs-example" data-example-id="simple-jumbotron">
@@ -308,16 +411,28 @@
                                                             <div class="col-md-12">
                                                                 <div class="col-md-4 col-sm-6 col-xs-12">
                                                                     <div class="pricing">
-                                                                        <div class="title" style="height: 80px; padding-top: 50px">
+                                                                        <div class="title"
+                                                                             style="height: 80px; padding-top: 50px">
                                                                             <h2>Assignment 1</h2>
                                                                         </div>
                                                                         <div class="x_content">
                                                                             <div class="">
-                                                                                <div class="pricing_features" style="min-height: 0px;">
+                                                                                <div class="pricing_features"
+                                                                                     style="min-height: 0px;">
                                                                                     <ul class="list-unstyled text-left">
-                                                                                        <li><i class="fa fa-circle-o text-danger"></i> Good work</li>
-                                                                                        <li><i class="fa fa-circle-o text-danger"></i> Could write more for contrasting</li>
-                                                                                        <li><i class="fa fa-circle-o text-danger"></i> Love the conclusion</li>
+                                                                                        <li>
+                                                                                            <i class="fa fa-circle-o text-danger"></i>
+                                                                                            Good work
+                                                                                        </li>
+                                                                                        <li>
+                                                                                            <i class="fa fa-circle-o text-danger"></i>
+                                                                                            Could write more for
+                                                                                            contrasting
+                                                                                        </li>
+                                                                                        <li>
+                                                                                            <i class="fa fa-circle-o text-danger"></i>
+                                                                                            Love the conclusion
+                                                                                        </li>
                                                                                     </ul>
                                                                                 </div>
                                                                             </div>
@@ -326,16 +441,28 @@
                                                                 </div>
                                                                 <div class="col-md-4 col-sm-6 col-xs-12">
                                                                     <div class="pricing">
-                                                                        <div class="title" style="height: 80px; padding-top: 50px">
+                                                                        <div class="title"
+                                                                             style="height: 80px; padding-top: 50px">
                                                                             <h2>Assignment 1</h2>
                                                                         </div>
                                                                         <div class="x_content">
                                                                             <div class="">
-                                                                                <div class="pricing_features" style="min-height: 0px;">
+                                                                                <div class="pricing_features"
+                                                                                     style="min-height: 0px;">
                                                                                     <ul class="list-unstyled text-left">
-                                                                                        <li><i class="fa fa-circle-o text-danger"></i> Good work</li>
-                                                                                        <li><i class="fa fa-circle-o text-danger"></i> Could write more for contrasting</li>
-                                                                                        <li><i class="fa fa-circle-o text-danger"></i> Love the conclusion</li>
+                                                                                        <li>
+                                                                                            <i class="fa fa-circle-o text-danger"></i>
+                                                                                            Good work
+                                                                                        </li>
+                                                                                        <li>
+                                                                                            <i class="fa fa-circle-o text-danger"></i>
+                                                                                            Could write more for
+                                                                                            contrasting
+                                                                                        </li>
+                                                                                        <li>
+                                                                                            <i class="fa fa-circle-o text-danger"></i>
+                                                                                            Love the conclusion
+                                                                                        </li>
                                                                                     </ul>
                                                                                 </div>
                                                                             </div>
@@ -348,16 +475,28 @@
                                                             <div class="col-md-12">
                                                                 <div class="col-md-4 col-sm-6 col-xs-12">
                                                                     <div class="pricing">
-                                                                        <div class="title" style="height: 80px; padding-top: 50px">
+                                                                        <div class="title"
+                                                                             style="height: 80px; padding-top: 50px">
                                                                             <h2>Assignment 1</h2>
                                                                         </div>
                                                                         <div class="x_content">
                                                                             <div class="">
-                                                                                <div class="pricing_features" style="min-height: 0px;">
+                                                                                <div class="pricing_features"
+                                                                                     style="min-height: 0px;">
                                                                                     <ul class="list-unstyled text-left">
-                                                                                        <li><i class="fa fa-circle-o text-danger"></i> Good work</li>
-                                                                                        <li><i class="fa fa-circle-o text-danger"></i> Could write more for contrasting</li>
-                                                                                        <li><i class="fa fa-circle-o text-danger"></i> Love the conclusion</li>
+                                                                                        <li>
+                                                                                            <i class="fa fa-circle-o text-danger"></i>
+                                                                                            Good work
+                                                                                        </li>
+                                                                                        <li>
+                                                                                            <i class="fa fa-circle-o text-danger"></i>
+                                                                                            Could write more for
+                                                                                            contrasting
+                                                                                        </li>
+                                                                                        <li>
+                                                                                            <i class="fa fa-circle-o text-danger"></i>
+                                                                                            Love the conclusion
+                                                                                        </li>
                                                                                     </ul>
                                                                                 </div>
                                                                             </div>
@@ -366,16 +505,28 @@
                                                                 </div>
                                                                 <div class="col-md-4 col-sm-6 col-xs-12">
                                                                     <div class="pricing">
-                                                                        <div class="title" style="height: 80px; padding-top: 50px">
+                                                                        <div class="title"
+                                                                             style="height: 80px; padding-top: 50px">
                                                                             <h2>Assignment 1</h2>
                                                                         </div>
                                                                         <div class="x_content">
                                                                             <div class="">
-                                                                                <div class="pricing_features" style="min-height: 0px;">
+                                                                                <div class="pricing_features"
+                                                                                     style="min-height: 0px;">
                                                                                     <ul class="list-unstyled text-left">
-                                                                                        <li><i class="fa fa-circle-o text-danger"></i> Good work</li>
-                                                                                        <li><i class="fa fa-circle-o text-danger"></i> Could write more for contrasting</li>
-                                                                                        <li><i class="fa fa-circle-o text-danger"></i> Love the conclusion</li>
+                                                                                        <li>
+                                                                                            <i class="fa fa-circle-o text-danger"></i>
+                                                                                            Good work
+                                                                                        </li>
+                                                                                        <li>
+                                                                                            <i class="fa fa-circle-o text-danger"></i>
+                                                                                            Could write more for
+                                                                                            contrasting
+                                                                                        </li>
+                                                                                        <li>
+                                                                                            <i class="fa fa-circle-o text-danger"></i>
+                                                                                            Love the conclusion
+                                                                                        </li>
                                                                                     </ul>
                                                                                 </div>
                                                                             </div>
@@ -405,9 +556,11 @@
                                         <div class="x_panel">
                                             <div class="x_content">
                                                 <div class="jumbotron">
-                                                    <p>If you have any concern of these review, please feel free to communicate.</p>
+                                                    <p>If you have any concern of these review, please feel free to
+                                                        communicate.</p>
                                                     <div>
-                                                        <textarea id="message" autocomplete="off" class="form-control" data-parsley-trigger="keyup">
+                                                        <textarea id="message" autocomplete="off" class="form-control"
+                                                                  data-parsley-trigger="keyup">
                                                         </textarea>
                                                     </div>
                                                     <br>
@@ -416,7 +569,6 @@
                                             </div>
                                         </div>
                                     </div>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -424,9 +576,10 @@
                 </div>
             </div>
         </div>
+    </div>
 
 
-        @include('includes.footer')
+    @include('includes.footer')
     </div>
 
 @stop
