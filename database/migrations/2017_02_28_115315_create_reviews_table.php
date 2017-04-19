@@ -16,6 +16,7 @@ class CreateReviewsTable extends Migration
         Schema::create('reviews', function (Blueprint $table) {
             $table->increments('id');
             $table->timestamps();
+            $table->string('stars')->nullable();
             $table->string('last_view');
             $table->integer('rating');
             $table->text('comment_1');
@@ -24,8 +25,6 @@ class CreateReviewsTable extends Migration
             $table->text('comment_4');
             $table->integer('submission_id');
             $table->integer('student_id');
-
-
         });
     }
 
