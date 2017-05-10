@@ -5,20 +5,17 @@ namespace App\Http\Controllers;
 use App\Course;
 use Illuminate\Http\Request;
 
-class CourseController extends Controller
+class TeacherController extends Controller
 {
     /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
      */
-    public function getCourse($id){
-        return view('course',compact('id'));
-    }
-
     public function index()
     {
-
+        $courses= Course::get();
+        return view('lecturer.index', ['courses'=>$courses]);
     }
 
     /**
@@ -48,9 +45,9 @@ class CourseController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($course)
+    public function show($id)
     {
-        return view('assignment.create_assignment', compact('course'));
+        //
     }
 
     /**
