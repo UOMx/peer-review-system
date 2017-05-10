@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>@yield('title')</title>
+    <link rel="icon" href="/webedu-theme/images/uomx-favicon.png" type="image/png">
 
     <!-- Bootstrap -->
     <link href="gentelella-theme/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
