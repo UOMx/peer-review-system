@@ -16,13 +16,15 @@ class CreateReviewsTable extends Migration
         Schema::create('reviews', function (Blueprint $table) {
             $table->increments('id');
             $table->timestamps();
-            $table->string('stars')->nullable();
             $table->string('last_view');
-            $table->integer('rating');
-            $table->text('comment_1');
-            $table->text('comment_2');
-            $table->text('comment_3');
-            $table->text('comment_4');
+            $table->string('who_are_u');
+            $table->text('why_like');
+            $table->text('problem_see');
+            $table->text('why_not_understand');
+            $table->text('how_to_improve');
+            $table->integer('mark_content');
+            $table->integer('mark-language');
+            $table->integer('mark-organization');
             $table->integer('submission_id');
             $table->integer('student_id');
         });

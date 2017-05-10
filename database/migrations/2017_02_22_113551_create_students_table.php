@@ -19,6 +19,7 @@ class CreateStudentsTable extends Migration
             $table->string('first_name');
             $table->string('last_name');
             $table->date('birthday');
+            $table->double('rating');
             $table->timestamps();
         });
     }

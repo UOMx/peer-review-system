@@ -15,12 +15,7 @@ class CreateFeedbackTable extends Migration
     {
         Schema::create('feedback', function (Blueprint $table) {
             $table->increments('id');
-            $table->text('marks_usability_heuristics');
-            $table->text('marks_clarity');
-            $table->text('marks_illustrations');
-            $table->text('what_worked_great');
-            $table->text('what_you_did _not_understand');
-            $table->text('how_can_this_be_improved');
+            $table->integer('rating');
             $table->timestamps();
         });
     }
