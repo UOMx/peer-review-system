@@ -40,7 +40,7 @@
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <b class="caret"></b></a>
                     <ul class="dropdown-menu">
-                        <li><a href="sidebar-right.html">Right Sidebar</a></li>
+                        <li><a href="#">Right Sidebar</a></li>
                         <li><a href="#">Dummy Link1</a></li>
                         <li><a href="#">Dummy Link2</a></li>
                         <li><a href="#">Dummy Link3</a></li>
