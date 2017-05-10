@@ -46,6 +46,7 @@
                     </ul>
                 </li>
                 <li><a href="/contact">Contact</a></li>
+                <li><a href="/login">Sign In</a></li>
 
             </ul>
         </div>

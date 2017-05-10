@@ -47,6 +47,7 @@
                     </ul>
                 </li>
                 <li><a href="/contact">Contact</a></li>
+                <li><a href="/login">Sign In</a></li>
             </ul>
         </div>
         <!--/.nav-collapse -->
@@ -299,9 +300,9 @@
                         <h4>Contact</h4>
                         <p>Lorem reksi this dummy text unde omnis iste natus error sit volupum</p>
                         <div class="contact-info">
-                            <i class="fa fa-map-marker"></i> Kerniles 416  - United Kingdom<br>
-                            <i class="fa fa-phone"></i>+00 123 156 711 <br>
-                            <i class="fa fa-envelope-o"></i> youremail@email.com
+                            <i class="fa fa-map-marker"></i> University of Moratuwa - Sri Lanka<br>
+                            <i class="fa fa-phone"></i>+94 112 XXX XXX <br>
+                            <i class="fa fa-envelope-o"></i> mail@uomx.mrt.ac.lk
                         </div>
                     </div><!-- end widget -->
                 </div>
