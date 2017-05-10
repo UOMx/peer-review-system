@@ -32,7 +32,7 @@
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav pull-right mainNav">
                 <li class="active"><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
+                <li><a href="/about">About</a></li>
                 <li><a href="#">Courses</a></li>
                 <li><a href="#">Price</a></li>
                 <li><a href="#">Videos</a></li>
@@ -45,7 +45,7 @@
                         <li><a href="#">Dummy Link3</a></li>
                     </ul>
                 </li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="/contact">Contact</a></li>
 
             </ul>
         </div>
@@ -322,12 +322,12 @@
                 <div class="col-md-6 panel">
                     <div class="panel-body">
                         <p class="simplenav">
-                            <a href="#">Home</a> |
-                            <a href="#">About</a> |
+                            <a href="/">Home</a> |
+                            <a href="/about">About</a> |
                             <a href="#">Courses</a> |
                             <a href="#">Price</a> |
                             <a href="#">Videos</a> |
-                            <a href="#">Contact</a>
+                            <a href="/contact">Contact</a>
                         </p>
                     </div>
                 </div>
