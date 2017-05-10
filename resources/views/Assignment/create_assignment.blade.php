@@ -229,44 +229,101 @@
                         </div>
                       </div>
                     <div id="step-3">
-                        <h2 class="StepTitle">Add Rubric</h2>
+                        <h2 class="StepTitle">Create Rubric</h2>
                             <div class="container  col-md-3">
                                 <div class="row">
                                   <div class="container">
                                     <div class="row clearfix">
-                                <div class="col-md-12 column">
+                                <div class="col-md-12 column" id="rubric">
                                   <table class="table table-bordered table-hover" id="tab_logic">
                                     <thead>
                                       <tr >
-                                        <th class="text-center">
-                                          #
+                                        <th>
+
                                         </th>
                                         <th class="text-center col-md-9">
-                                          Rubric
+                                          Criteria 1
                                         </th>
                                         <th class="text-center col-md-3">
                                           Mark Allocation
                                         </th>
                                       </tr>
                                     </thead>
-                                    <tbody>
-                                      <tr id='addr0'>
+                                    <tbody id="addbody0">
+                                      <tr>
                                         <td>
-                                        1
+
                                         </td>
                                         <td>
-                                        <input type="text" name='rubric'  placeholder='Rubric name' class="form-control"/>
+                                        <input type="text" name='rubric'  placeholder='Description of the criteria 1' class="form-control"/>
                                         </td>
                                         <td>
-                                        <input type="text" name='mark' placeholder='Mark' class="form-control"/>
+                                        {{--<input type="text" name='mark' placeholder='Mark' class="form-control"/>--}}
                                         </td>
+
                                       </tr>
-                                                <tr id='addr1'></tr>
+                                      <tr>
+                                          <td>Excellent</td>
+                                          <td>
+                                              <input type="text" name='excellent1'  placeholder='Detail of excellent' class="form-control"/>
+                                          </td>
+                                          <td>
+                                              <input type="text" name='exmark1' placeholder='Marks for excellent' class="form-control"/>
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td>Very good</td>
+                                          <td>
+                                              <input type="text" name='veryg1'  placeholder='Detail of Very good detail' class="form-control"/>
+                                          </td>
+                                          <td>
+                                              <input type="text" name='vmark1' placeholder='Marks for very good' class="form-control"/>
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td>Good</td>
+                                          <td>
+                                              <input type="text" name='good1'  placeholder='Detail of good' class="form-control"/>
+                                          </td>
+                                          <td>
+                                              <input type="text" name='gmark1' placeholder='Marks for good' class="form-control"/>
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td>Fair</td>
+                                          <td>
+                                              <input type="text" name='fair1'  placeholder='Detail of fair' class="form-control"/>
+                                          </td>
+                                          <td>
+                                              <input type="text" name='fmark1' placeholder='Marks for fair' class="form-control"/>
+                                          </td>
+                                      </tr>
+                                      <tr >
+                                          <td>Weak</td>
+                                          <td>
+                                              <input type="text" name='weak1'  placeholder='Detail of Weak' class="form-control"/>
+                                          </td>
+                                          <td>
+                                              <input type="text" name='wmark1' placeholder='Marks for weak' class="form-control"/>
+                                          </td>
+                                      </tr>
+
                                     </tbody>
                                   </table>
+                                <table class="table table-bordered table-hover" id="tab_logic1">
+                                    <thead>
+                                    <tr id="head_1">
+
+                                    </tr>
+                                    </thead>
+                                    <tbody id="addbody1" >
+
+
+                                    </tbody>
+                                </table>
                                 </div>
                                 </div>
-                                    <a id="add_row" class="btn btn-default pull-left">Add Row</a><a id='delete_row' class="pull-right btn btn-default">Delete Row</a>
+                                    <a id="add_row" class="btn btn-default pull-left">Add New Criteria</a><a id='delete_row' class="pull-right btn btn-default">Delete criteria</a>
                                   </div>
                                 </div>
                             </div>
@@ -275,17 +332,37 @@
 
                                 var i=1;
                                 $("#add_row").click(function(){
-                                    $('#addr'+i).html("<td>"+ (i+1) +"</td><td><input name='rubric"+i+"' type='text' placeholder='Rubric name' class='form-control input-md'  /> </td><td><input  name='mark"+i+"' type='text' placeholder='Mark'  class='form-control input-md'></td>");
-                                    $("#wizard"). smartWizard("fixHeight");
-                                    $('#tab_logic').append('<tr id="addr'+(i+1)+'"></tr>');
-                                    i++;
+                                    if(i<5) {
+                                        $('#head_' + i).html("<th></th><th class='text-center col-md-9'>Criteria " + (i + 1) + "</th><th class='text-center col-md-3'>Mark Allocation</th>");
+                                        $('#addbody' + i).html("<tr><td></td><td><input name='rubric" + i + "' type='text' placeholder='Description of the criteria " + (i + 1) + "' class='form-control input-md'  /> </td><td></td></th>" +
+                                                "<tr><td>Excellent</td><td><input type='text' name='excellent" + (i + 1) + "'  placeholder='Detail of excellent' class='form-control'/></td><td><input type='text' name='exmark" + (i + 1) + "' placeholder='Marks for excellent' class='form-control'/></td></tr>" +
+                                                "<tr><td>Very Good</td><td><input type='text' name='verygood" + (i + 1) + "'  placeholder='Detail of very good' class='form-control'/></td><td><input type='text' name='vgmark" + (i + 1) + "' placeholder='Marks for very good' class='form-control'/></td></tr>" +
+                                                "<tr><td>Good</td><td><input type='text' name='good" + (i + 1) + "'  placeholder='Detail of good' class='form-control'/></td><td><input type='text' name='gmark" + (i + 1) + "' placeholder='Marks for good' class='form-control'/></td></tr>" +
+                                                "<tr><td>Fair</td><td><input type='text' name='fair" + (i + 1) + "'  placeholder='Detail of fair' class='form-control'/></td><td><input type='text' name='fmark" + (i + 1) + "' placeholder='Marks for fair' class='form-control'/></td></tr>" +
+                                                "<tr><td>Weak</td><td><input type='text' name='weak" + (i + 1) + "'  placeholder='Detail of weak' class='form-control'/></td><td><input type='text' name='wxmark" + (i + 1) + "' placeholder='Marks for weak' class='form-control'/></td></tr>");
+
+
+                                        $("#wizard").smartWizard("fixHeight");
+//
+                                        $('#rubric').append('<table class="table table-bordered table-hover" id="tab_logic' + (i + 1) + '">' +
+
+                                                '<thead><tr id="head_' + (i + 1) + '"></tr></thead><tbody id="addbody' + (i + 1) + '" ></tbody></table>');
+
+
+                                        i++;
+                                    }
                                 });
                                 $("#delete_row").click(function(){
 
                                   if(i>1){
-                                    $("#addr"+(i-1)).html('');
+                                    $("#tab_logic"+(i-1)).html(null);
+
                                     i--;
-                                    }
+                                      $('#rubric').append('<br><table class="table table-bordered table-hover" id="tab_logic' + (i) + '">' +
+
+                                              '<thead><tr id="head_' + (i) + '"></tr></thead><tbody id="addbody' + (i) + '" ></tbody></table>');
+
+                                  }
                                     $("#wizard"). smartWizard("fixHeight");
                                 });
 
@@ -324,34 +401,35 @@
 
 
     <!-- FastClick -->
-    <script src="gentelella-theme/vendors/fastclick/lib/fastclick.js"></script>
+
+    <script src="{{URL::asset('gentelella-theme/vendors/fastclick/lib/fastclick.js')}}"></script>
     <!-- NProgress -->
-    <script src="gentelella-theme/vendors/nprogress/nprogress.js"></script>
+    <script src="{{URL::asset('gentelella-theme/vendors/nprogress/nprogress.js')}}"></script>
     <!-- jQuery Smart Wizard -->
-    <script src="gentelella-theme/vendors/jQuery-Smart-Wizard/js/jquery.smartWizard.js"></script>
+    <script src="{{URL::asset('gentelella-theme/vendors/jQuery-Smart-Wizard/js/jquery.smartWizard.js')}}"></script>
     <!-- Custom Theme Scripts -->
-    <script src="gentelella-theme/build/js/custom.min.js"></script>
+    <script src=" {{URL::asset('gentelella-theme/build/js/custom.min.js')}}"></script>
     <!-- bootstrap-daterangepicker -->
-    <script src="gentelella-theme/vendors/moment/min/moment.min.js"></script>
-    <script src="gentelella-theme/vendors/bootstrap-daterangepicker/daterangepicker.js"></script>
+    <script src="{{URL::asset('gentelella-theme/vendors/moment/min/moment.min.js')}}"></script>
+    <script src=" {{URL::asset('gentelella-theme/vendors/bootstrap-daterangepicker/daterangepicker.js')}}"></script>
     <!-- bootstrap-wysiwyg -->
-    <script src="gentelella-theme/vendors/bootstrap-wysiwyg/js/bootstrap-wysiwyg.min.js"></script>
-    <script src="gentelella-theme/vendors/jquery.hotkeys/jquery.hotkeys.js"></script>
-    <script src="gentelella-theme/vendors/google-code-prettify/src/prettify.js"></script>
+    <script src=" {{URL::asset('gentelella-theme/vendors/bootstrap-wysiwyg/js/bootstrap-wysiwyg.min.js')}}"></script>
+    <script src="{{URL::asset('gentelella-theme/vendors/jquery.hotkeys/jquery.hotkeys.js')}}"></script>
+    <script src="{{URL::asset('gentelella-theme/vendors/google-code-prettify/src/prettify.js')}}"></script>
     <!-- jQuery Tags Input -->
-    <script src="gentelella-theme/vendors/jquery.tagsinput/src/jquery.tagsinput.js"></script>
+    <script src="{{URL::asset('gentelella-theme/vendors/jquery.tagsinput/src/jquery.tagsinput.js')}}"></script>
     <!-- Switchery -->
-    <script src="gentelella-theme/vendors/switchery/dist/switchery.min.js"></script>
+    <script src="{{URL::asset('gentelella-theme/vendors/switchery/dist/switchery.min.js')}}"></script>
     <!-- Select2 -->
-    <script src="gentelella-theme/vendors/select2/dist/js/select2.full.min.js"></script>
+    <script src="{{URL::asset('gentelella-theme/vendors/select2/dist/js/select2.full.min.js')}}"></script>
     <!-- Parsley -->
-    <script src="gentelella-theme/vendors/parsleyjs/dist/parsley.min.js"></script>
+    <script src=" {{URL::asset('gentelella-theme/vendors/parsleyjs/dist/parsley.min.js')}}"></script>
     <!-- Autosize -->
-    <script src="gentelella-theme/vendors/autosize/dist/autosize.min.js"></script>
+    <script src=" {{URL::asset('gentelella-theme/vendors/autosize/dist/autosize.min.js')}}"></script>
     <!-- jQuery autocomplete -->
-    <script src="gentelella-theme/vendors/devbridge-autocomplete/dist/jquery.autocomplete.min.js"></script>
+    <script src="{{URL::asset('gentelella-theme/vendors/devbridge-autocomplete/dist/jquery.autocomplete.min.js')}}"></script>
     <!-- starrr -->
-    <script src="gentelella-theme/vendors/starrr/dist/starrr.js"></script>
+    <script src="{{URL::asset('gentelella-theme/vendors/starrr/dist/starrr.js')}}"></script>
 
 
  @stop
