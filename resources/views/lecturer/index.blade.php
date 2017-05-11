@@ -92,7 +92,7 @@
                                                         </div>
                                                         <div class="pricing_footer">
 
-                                                            <a href="/courses/{{$course->name}}" class="btn btn-success btn-block" >Create
+                                                            <a href="/courses/{{$course->name}}" class="btn btn-primary btn-block" >Create
                                                                 Assignment <span> now!</span></a>
 
                                                         </div>
