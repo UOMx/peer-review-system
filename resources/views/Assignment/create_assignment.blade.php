@@ -402,34 +402,34 @@
 
     <!-- FastClick -->
 
-    <script src="{{URL::asset('gentelella-theme/vendors/fastclick/lib/fastclick.js')}}"></script>
+    <script src="gentelella-theme/vendors/fastclick/lib/fastclick.js"></script>
     <!-- NProgress -->
-    <script src="{{URL::asset('gentelella-theme/vendors/nprogress/nprogress.js')}}"></script>
+    <script src="gentelella-theme/vendors/nprogress/nprogress.js"></script>
     <!-- jQuery Smart Wizard -->
-    <script src="{{URL::asset('gentelella-theme/vendors/jQuery-Smart-Wizard/js/jquery.smartWizard.js')}}"></script>
+    <script src="gentelella-theme/vendors/jQuery-Smart-Wizard/js/jquery.smartWizard.js"></script>
     <!-- Custom Theme Scripts -->
-    <script src=" {{URL::asset('gentelella-theme/build/js/custom.min.js')}}"></script>
+    <script src=" 'gentelella-theme/build/js/custom.min.js')}}"></script>
     <!-- bootstrap-daterangepicker -->
-    <script src="{{URL::asset('gentelella-theme/vendors/moment/min/moment.min.js')}}"></script>
-    <script src=" {{URL::asset('gentelella-theme/vendors/bootstrap-daterangepicker/daterangepicker.js')}}"></script>
+    <script src="gentelella-theme/vendors/moment/min/moment.min.js"></script>
+    <script src="gentelella-theme/vendors/bootstrap-daterangepicker/daterangepicker.js"></script>
     <!-- bootstrap-wysiwyg -->
-    <script src=" {{URL::asset('gentelella-theme/vendors/bootstrap-wysiwyg/js/bootstrap-wysiwyg.min.js')}}"></script>
-    <script src="{{URL::asset('gentelella-theme/vendors/jquery.hotkeys/jquery.hotkeys.js')}}"></script>
-    <script src="{{URL::asset('gentelella-theme/vendors/google-code-prettify/src/prettify.js')}}"></script>
+    <script src="gentelella-theme/vendors/bootstrap-wysiwyg/js/bootstrap-wysiwyg.min.js"></script>
+    <script src="gentelella-theme/vendors/jquery.hotkeys/jquery.hotkeys.js"></script>
+    <script src="gentelella-theme/vendors/google-code-prettify/src/prettify.js"></script>
     <!-- jQuery Tags Input -->
-    <script src="{{URL::asset('gentelella-theme/vendors/jquery.tagsinput/src/jquery.tagsinput.js')}}"></script>
+    <script src="gentelella-theme/vendors/jquery.tagsinput/src/jquery.tagsinput.js"></script>
     <!-- Switchery -->
-    <script src="{{URL::asset('gentelella-theme/vendors/switchery/dist/switchery.min.js')}}"></script>
+    <script src="gentelella-theme/vendors/switchery/dist/switchery.min.js"></script>
     <!-- Select2 -->
-    <script src="{{URL::asset('gentelella-theme/vendors/select2/dist/js/select2.full.min.js')}}"></script>
+    <script src="'gentelella-theme/vendors/select2/dist/js/select2.full.min.js"></script>
     <!-- Parsley -->
-    <script src=" {{URL::asset('gentelella-theme/vendors/parsleyjs/dist/parsley.min.js')}}"></script>
+    <script src=" gentelella-theme/vendors/parsleyjs/dist/parsley.min.js"></script>
     <!-- Autosize -->
-    <script src=" {{URL::asset('gentelella-theme/vendors/autosize/dist/autosize.min.js')}}"></script>
+    <script src=" gentelella-theme/vendors/autosize/dist/autosize.min.js"></script>
     <!-- jQuery autocomplete -->
-    <script src="{{URL::asset('gentelella-theme/vendors/devbridge-autocomplete/dist/jquery.autocomplete.min.js')}}"></script>
+    <script src="gentelella-theme/vendors/devbridge-autocomplete/dist/jquery.autocomplete.min.js"></script>
     <!-- starrr -->
-    <script src="{{URL::asset('gentelella-theme/vendors/starrr/dist/starrr.js')}}"></script>
+    <script src="gentelella-theme/vendors/starrr/dist/starrr.js"></script>
 
 
  @stop

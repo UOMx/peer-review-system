@@ -51,6 +51,7 @@ Route::get('create-assignment', function () {
     return view('Assignment.create_assignment');
 });
 
+//Route::get('/courses/{course}', 'CourseController@show'); changed this to below
 Route::get('course/{id}', ['as' => 'course', 'uses' => 'CourseController@getCourse']);
 
 

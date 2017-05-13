@@ -9,7 +9,7 @@
         <!-- menu profile quick info -->
         <div class="profile clearfix">
             <div class="profile_pic">
-                <img src="{{URL::asset('gentelella-theme/production/images/img.jpg')}}" alt="..." class="img-circle profile_img">
+                <img src="gentelella-theme/production/images/img.jpg" alt="..." class="img-circle profile_img">
             </div>
             <div class="profile_info">
                 <span>Welcome,</span>
@@ -26,7 +26,8 @@
             <div class="menu_section">
                 {{--<h3>General</h3>--}}
                 <ul class="nav side-menu">
-                    <li><a href="{{route('lecturer-courses')}}"><i class="fa fa-home"></i> Home </a>
+                    <li><a href="/dashboard"><i class="fa fa-home"></i> Home </a>
+                    {{--<li><a href="{{route('lecturer-courses')}}"><i class="fa fa-home"></i> Home </a>--}}
                         <a> Courses<span class="fa fa-chevron-down"></span></a>
                         <ul class="nav child_menu">
                             <li><a href="#">Human Computer Interaction<span class="fa fa-chevron-down"></span></a>
